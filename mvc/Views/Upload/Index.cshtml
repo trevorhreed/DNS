@@ -1,0 +1,143 @@
+﻿@{
+    ViewBag.Title = "Upload";
+    ViewBag.Message = "Experiments In Uploading Content Using ASP.NET MVC";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<p>In order for this demo to work, you must create a folder at c:\dump which your web server has access to. (The easiest to do this is create the folder and give the Everyone principal full access.) After submitting the form, you should see two images and a text file in the c:\dump folder.</p>
+
+@section styles {
+<style>
+    label {
+        display: block;
+        padding: .5rem .5rem 1rem;
+    }
+
+        label > span {
+            display: block;
+        }
+
+    button {
+        background-color: #eeeeee;
+    }
+
+        button:focus, button:hover {
+            box-shadow: 0 0 .5rem #aaaaaa;
+        }
+
+    button, input, select {
+        outline: none;
+        margin: .5rem .5rem .5rem 2rem;
+        border: solid 1px #dddddd;
+        padding: .5rem 1rem;
+    }
+
+    input, select {
+        display: inline-block !important;
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+    }
+
+        input:focus, input:hover, select:focus, select:hover {
+            box-shadow: inset 0 0 .5rem #aaaaaa;
+        }
+
+    #divContacts {
+        display: block;
+    }
+
+        #divContacts .contact {
+            margin-left: 2rem;
+        }
+
+        #divContacts label {
+            font-weight: normal;
+            display: inline-block;
+        }
+
+        #divContacts input {
+            display: inline-block;
+            margin: .5rem;
+        }
+
+            #divContacts input.number {
+                width: 13rem;
+            }
+
+            #divContacts input.ext {
+                width: 6rem;
+            }
+</style>
+}
+
+@section scripts{
+<script>
+    $(function () {
+        $("#btnAddContact").click(function () {
+            var index = $("#divContacts").children().size();
+            $("#divContacts").append(
+                "<div class='contact'>" +
+                    "<label>Number <input type='text' class='number' name='Contacts[" + index + "].Number' /></label>" +
+                    "<label>Extension <input type='text' class='ext' name='Contacts[" + index + "].Extension' /></label>" +
+                "</div>"
+            );
+        });
+    });
+</script>
+}
+
+@model mvc.Models.FormModel
+
+@if (!String.IsNullOrWhiteSpace(ViewBag.success))
+{
+    <div class="validation-summary-successes">
+        <ul>
+            <li>@ViewBag.success</li>
+        </ul>
+    </div>
+}
+
+@Html.ValidationSummary()
+
+<form method="post" enctype="multipart/form-data">
+
+    <label>
+        <span>Name</span>
+        <input type="text" name="name" />
+    </label>
+
+    <label>
+        Contacts
+        <span id="divContacts">
+            @for (int i = 0; i < Model.Contacts.Count; i++)
+            {
+                <span class="contact">
+                    <label>
+                        Number
+                        @Html.TextBoxFor(m => m.Contacts[i].Number, new { @class = "number" })
+                    </label>
+                    <label>
+                        Extension
+                        @Html.TextBoxFor(m => m.Contacts[i].Extension, new { @class = "ext" })
+                    </label>
+                </span>
+            }
+        </span>
+        <button type="button" id="btnAddContact">+ Contact</button>
+    </label>
+
+    <label>
+        <span>Profile</span>
+        <input type="file" name="profile" />
+    </label>
+
+    <label>
+        <span>Profile (Thin)</span>
+        <input type="file" name="profileThin" />
+    </label>
+
+    <label>
+        <button type="submit">Submit</button>
+    </label>
+</form>
+
