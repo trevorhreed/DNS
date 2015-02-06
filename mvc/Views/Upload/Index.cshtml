@@ -77,8 +77,8 @@
             var index = $("#divContacts").children().size();
             $("#divContacts").append(
                 "<div class='contact'>" +
-                    "<label>Number <input type='text' class='number' name='Contacts[" + index + "].Number' /></label>" +
-                    "<label>Extension <input type='text' class='ext' name='Contacts[" + index + "].Extension' /></label>" +
+                    "<label> Number <input type='text' class='number' name='Contacts[" + index + "].Number' /></label>" +
+                    "<label> Extension <input type='text' class='ext' name='Contacts[" + index + "].Extension' /></label>" +
                 "</div>"
             );
         });
@@ -111,7 +111,7 @@
         <span id="divContacts">
             @for (int i = 0; i < Model.Contacts.Count; i++)
             {
-                <span class="contact">
+                <div class="contact">
                     <label>
                         Number
                         @Html.TextBoxFor(m => m.Contacts[i].Number, new { @class = "number" })
@@ -120,7 +120,7 @@
                         Extension
                         @Html.TextBoxFor(m => m.Contacts[i].Extension, new { @class = "ext" })
                     </label>
-                </span>
+                </div>
             }
         </span>
         <button type="button" id="btnAddContact">+ Contact</button>
