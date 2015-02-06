@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyApp.Db
 {
-    private interface IModel
+    public interface IModel
     {
         Guid getId();
     }
-    private abstract class AModel<T> : IModel where T : IModel
+    public abstract class AModel<T> : IModel where T : IModel
     {
         private Guid _id;
         public Guid getId()
@@ -22,10 +22,16 @@ namespace MyApp.Db
             return _id;
         }
 
+
         private static Dictionary<Guid, T> rows;
         static AModel()
         {
             rows = new Dictionary<Guid, T>();
+            AppDomain.CurrentDomain.ProcessExit += Destructor;
+        }
+        static void Destructor(object sender, EventArgs e)
+        {
+
         }
         public static T Get(Guid id)
         {
@@ -48,18 +54,21 @@ namespace MyApp.Db
             rows.Remove(model.getId());
         }
     }
-
-    public class Model : AModel<Model>
+    public class Person : AModel<Person>
     {
         public string Name { get; set; }
         public string Age { get; set; }
     }
-
+        
     public class Example
     {
         public void run()
         {
-            
+            Person.Get(Guid.Empty);
+            Person.Put(new Person());
+            Person.Del(new Person());
+            Person.Del(new Person().getId());
+            Person.All();
         }
     }
 }

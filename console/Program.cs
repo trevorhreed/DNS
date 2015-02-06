@@ -36,7 +36,7 @@ namespace MyApp
                         ActionParameter = 0
                     }
                 }
-            }.Show();
+            };//.Show();
         }
 
         private static void ListModels(object param)
@@ -47,14 +47,14 @@ namespace MyApp
                 MenuItems = new List<MenuItem>(),
                 BuildMenuItemsAction = delegate(Menu m){
                     m.MenuItems = new List<MenuItem>();
-                    Dictionary<Guid, Model> models = Model.All();
+                    Dictionary<Guid, Person> models = Person.All();
                     if (models.Count > 0)
                     {
                         m.MenuItems.Add(new MenuItem()
                         {
                             Label = "Back"
                         });
-                        foreach (KeyValuePair<Guid, Model> pair in Model.All())
+                        foreach (KeyValuePair<Guid, Person> pair in Person.All())
                         {
                             string key = pair.Key.ToString();
                             m.MenuItems.Add(new MenuItem()
@@ -80,7 +80,7 @@ namespace MyApp
 
         private static void ShowModel(object param)
         {
-            Model model = (Model)param;
+            Person model = (Person)param;
             Menu menu = new Menu()
             {
                 Title = "Model (" + model.getId() + ")",
@@ -112,16 +112,16 @@ namespace MyApp
 
         private static void AddModel(object param)
         {
-            Model model = new Model();
+            Person model = new Person();
             Dictionary<string, string> input = Menu.GetInput("Please enter the following information", "Name", "Age");
             model.Name = input["Name"];
             model.Age = input["Age"];
-            Model.Put(model);
+            Person.Put(model);
         }
 
         private static void UpdateModel(object param)
         {
-            Model model = (Model)param;
+            Person model = (Person)param;
             string name = "Name (" + model.Name + ")";
             string age = "Age (" + model.Age + ")";
             Dictionary<string, string> input = Menu.GetInput("Please enter the following information", name, age);
@@ -131,7 +131,7 @@ namespace MyApp
 
         private static void DeleteModel(object param)
         {
-            Model.Del((Guid)param);
+            Person.Del((Guid)param);
             throw new ReturnToPreviousMenuException();
         }
 
