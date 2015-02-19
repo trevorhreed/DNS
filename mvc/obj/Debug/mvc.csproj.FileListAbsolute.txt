@@ -50,7 +50,6 @@ C:\projects\vs\dns\mvc\bin\Microsoft.Owin.Security.OAuth.xml
 C:\projects\vs\dns\mvc\bin\Microsoft.Owin.Security.Google.xml
 C:\projects\vs\dns\mvc\bin\Microsoft.Owin.Security.Twitter.xml
 C:\projects\vs\dns\mvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\projects\vs\dns\mvc\obj\Debug\mvc.csprojResolveAssemblyReference.cache
 C:\projects\vs\dns\mvc\obj\Debug\mvc.dll
 C:\projects\vs\dns\mvc\obj\Debug\mvc.pdb
 C:\projects\vs\dns\mvc\bin\log4net.dll

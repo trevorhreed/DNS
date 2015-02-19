@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ext="http://ooyala.com/syndication/ext/" xmlns:mediasl="http://www.slide.com/funspace/developer/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:boxee="http://boxee.tv/spec/rss/">
+  <channel>
+    <title>True Blue on BYUtv</title>
+    <description>This weekly magazine show features BYU fan-favorite athletes and coaches. Reporters bring viewers to the action and introduce them to the personalities that make BYU Sports remarkable.</description>
+    <link>http://www.byutv.org/trueblue</link>
+    <item>
+      <title>Week of 2/9/2011</title>
+
+      <description>TRUE BLUE -This episode gives you the latest on the men's basketball team with Robbie Bullough previewing their final conference battle with arch rival Utah.</description>
+      <guid isPermaLink="false">g2ZDkxMjrS_6idjmrP2ckThcIXNSdRvs</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=g2ZDkxMjrS_6idjmrP2ckThcIXNSdRvs&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 09 Feb 2011 20:24:16 +0000</pubDate>
+      <media:title>Week of 2/9/2011</media:title>
+
+      <media:description>TRUE BLUE -This episode gives you the latest on the men's basketball team with Robbie Bullough previewing their final conference battle with arch rival Utah.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/g2ZDkxMjrS_6idjmrP2ckThcIXNSdRvs/Ut_HKthATH4eww8X5jMDoxOjBhO2jupz" width="320" height="180"/>
+      <dcterms:valid>start=2011-02-09T20:24+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044168&amp;signature=LqEYEcK3DzvOLICZaX5ZkvtSrfrM4E%2BhXLdTKJBKqvY&amp;size=15130992&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="-16" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044370&amp;signature=B9Rtrie7nbhW6W2EKjcbd5eKFNo29GIORXJDMqC1kTY&amp;size=6832346&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="16" framerate="29.97" samplingrate="16.0" duration="1518" lang="en" width="320" height="180"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044602&amp;signature=jIk%2FJHpuAVlQkY6bxe4yd53ykSpBLI6rxveAijjll8k&amp;size=7095120&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="21" framerate="29.97" samplingrate="16.0" duration="1518" lang="en" width="320" height="180"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6043797&amp;signature=sTlqYjv%2B%2BvYkuU45PWlb55FAU%2F9GCbMZdbTzymsTVEA&amp;size=39051770&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="140" framerate="29.97" samplingrate="32.0" duration="1518" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044126&amp;signature=pseRUdgT3MI3wEnIyxrKcVYhjH%2FxUqE%2BFo4fAcDaZOc&amp;size=41858576&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="156" framerate="29.97" samplingrate="32.0" duration="1518" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044033&amp;signature=l6v5JSnCu4MQq8JiwoTTkmv0ErElB359nlnRTVBiK7Q&amp;size=41858576&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="156" framerate="29.97" samplingrate="32.0" duration="1518" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044064&amp;signature=0cASmU1t3opB4GlqtO21Q8pC0Agj8D%2F%2FXOanTgGfl%2BU&amp;size=41858576&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="156" framerate="29.97" samplingrate="32.0" duration="1518" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6043812&amp;signature=%2BttBAvWg2kiX4mDNYFoPsNtTpiJzytGYH6jSdxFUzXE&amp;size=69034736&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="300" framerate="29.97" samplingrate="32.0" duration="1518" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044035&amp;signature=EisFxtg9ExXWrsD0NcBolEgePO9nO2qqD1hmk%2BmLZEo&amp;size=72368156&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="317" framerate="29.97" samplingrate="32.0" duration="1518" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044093&amp;signature=Gbheih5XUbaqgGJuFh79kKNr8Ft2FfIbH%2BzDwR5LnzM&amp;size=72368156&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="317" framerate="29.97" samplingrate="32.0" duration="1518" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044133&amp;signature=dCGi3F0UUk4wVZLfy38zC0Y3wWluU67a4565an96wfs&amp;size=86681912&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="360" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044172&amp;signature=1o%2FTBRW7XRw4sycJfqXzlKvb9Go2xbsqfbhkMK53LAo&amp;size=100976116&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="436" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6043957&amp;signature=mp2QP8uZ5CYulXlUgTwa95IrEIxT%2FPyZiE0%2FU9NPBQU&amp;size=131415496&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="600" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044181&amp;signature=oVPzPDqPSEgaXDqZjsOmFxG6XBeeEmfXxWLM56rHYG0&amp;size=135866848&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="620" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6043896&amp;signature=hBEzvf8eVpmnYgn8tubw1A7EF%2FZa0fblnuUkYT91aeY&amp;size=169055832&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="800" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044341&amp;signature=x6AgNK4GVtlLeX4Yix1vNsqovyfg2IZYmIQJ%2BC%2Bagx4&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044435&amp;signature=SFVhdMMM22s6emIzyDaFi%2FfCD210irQzqg67HzVtHnU&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044119&amp;signature=S45eQUAxyGJ68UkZUyNrUq030xHLn2xDpO8cZcS7fp4&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044351&amp;signature=32DC92%2BiC%2F0wFybUz%2BB8D%2BlD41b553eHC3tbGexYnTo&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044362&amp;signature=8DntDORcOK%2FzE%2BvssOymtTgxxTOUQl%2BPCH4Hh5SO77Y&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044304&amp;signature=XzKomAWb91fmkj1vUHaGQw0p8Mz6Vzv4EGfU1e4cahE&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044310&amp;signature=J0dc%2Bj%2Fw%2BRYwMWFyqA3V4QoQn7xKvjvxoVk6C7cUikI&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044215&amp;signature=c8bqU8b9WebcSl5iyMrOD7DGnxCsFZq%2Fta2%2F%2FfMn754&amp;size=174316044&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="822" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044303&amp;signature=WbNw7%2B87swRr98o2AbuzISbih2m3TPT499tma9ChsbE&amp;size=227482820&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1102" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044175&amp;signature=URGhJyc9ZF2wgDeV%2BPYRhJD0dbLJq4sPvBgW3BuTmG8&amp;size=227482820&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1102" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044368&amp;signature=B65qmSWvNEuptzzT170CVRFotQy4Smprvo5jYFqXLWM&amp;size=233144440&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1132" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044178&amp;signature=wofGmzBrWuXnP6KE4aoc7bI3hR2M1RyJuCvtHoc6ruk&amp;size=233144440&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1132" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6043919&amp;signature=3i1Ozq7oh%2Ba8YKWg1xGia%2BRRXsGPm%2Fzu%2BpRNcRbBBr4&amp;size=246904095&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1200" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044316&amp;signature=D9xONgxTrHdSG2AOb8h%2BpPs5T5QwFxxu6zj9qtdan0I&amp;size=253567068&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1240" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044354&amp;signature=boV%2B3bqLNtDw7G2ng7yHPmUFBbSB2B7SQfDEZEsLY5E&amp;size=253567068&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1240" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044471&amp;signature=3MTsITNexovlE0c99zfJyZyNlTYgVE8SXFDRCp0jeU4&amp;size=253567068&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1240" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044516&amp;signature=eMBO9XYz0wYIzfGYqWKVuLFd8x259Lv3EWNQvQTG%2F8g&amp;size=253567068&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1240" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044129&amp;signature=rrNyS3uZsxLJ76wkV7lUydvejyul5avcOcWbQN7EH3A&amp;size=253567068&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1240" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6043952&amp;signature=%2FBdC7yBqka595vP607BPCAHR9dytmsnuA8gPodRpV1w&amp;size=308340015&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6044069&amp;signature=QO7p0XuhgO7ENfKtoKC4EaWm0GR2K%2Be167UXJGkvw9M&amp;size=498119618&amp;length=1518118" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1518" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+
+      <title>Week of 2/2/2011</title>
+      <description>TRUE BLUE</description>
+      <guid isPermaLink="false">92eXUwMjpgy_hOZIa-oemssqjywiPPjx</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=92eXUwMjpgy_hOZIa-oemssqjywiPPjx&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 02 Feb 2011 17:18:38 +0000</pubDate>
+
+      <media:title>Week of 2/2/2011</media:title>
+      <media:description>TRUE BLUE</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:category scheme="http://www.ooyala.com">/Jimmer Channel/Stories</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/92eXUwMjpgy_hOZIa-oemssqjywiPPjx/Ut_HKthATH4eww8X5iMDoxOjBhOwYpZ3" width="320" height="180"/>
+      <dcterms:valid>start=2011-02-02T17:18+00:00;scheme=W3C-DTF</dcterms:valid>
+
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6134413&amp;signature=ZLAVTkD1nHXsBukPzMugsdPDSjZtqDxATMz%2BtG%2Fx3CA&amp;size=7246886&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="16" framerate="29.97" samplingrate="16.0" duration="1525" lang="en" width="320" height="180"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6134729&amp;signature=0imbFn2vn1Pc7KGYX9qLhWFToDpfwkGKjcSNibKTzmc&amp;size=7518496&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="23" framerate="29.97" samplingrate="16.0" duration="1525" lang="en" width="320" height="180"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6129275&amp;signature=AHzImIOEXUwrSwovPNqi%2FB0t9iFxZFYg7ctDGQx22KA&amp;size=39075405&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="140" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130929&amp;signature=vxtU0g96MiyFwddLvTIEpF4xUx1EIZCKu4amDQGkVhg&amp;size=41695204&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="154" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6129284&amp;signature=%2BEUKEiFsHUtGHcNQNj0E2zK21Ek6Wmw5UcNKKmAuHaI&amp;size=69199612&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="300" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130936&amp;signature=YNvMTVbHVNPE7bdRA%2BgpheGy43c5t0hNnYN37ITaR7w&amp;size=72384700&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="315" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6129301&amp;signature=plbz%2F88izOMROhRn%2F9lTM9jd0ONpi%2B1L%2BLI8Ds3pE9M&amp;size=132769047&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="600" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130933&amp;signature=C3acz01khdkolVGiyQOFDmr11wy0zv5MXFZevxUu5UA&amp;size=137148256&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="623" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6129323&amp;signature=QcExo4LCEBNpZ6BEMSU7nK%2FyWALURiZESSZuWadva54&amp;size=171115353&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="800" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130941&amp;signature=5wB0G2rOB0k6Nvyudp7JAmwH47c1%2BVaLm8ylx02olng&amp;size=176316364&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="829" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6134398&amp;signature=emyBBeXU3g0MWBMQ4yuPlE9xVMUxCSLiBFAphZofTfQ&amp;size=176305648&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="829" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6129338&amp;signature=ktXMZ6yrPAK%2BwdxbhexgDkk8q%2B5COFYKfQz0auPcvjM&amp;size=248185394&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="1200" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130945&amp;signature=6ssXrkkRSrmo3XPSTRqIXGpdZR49GemhzpF8DidAmPU&amp;size=254950560&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="1242" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6131039&amp;signature=N%2BgUDN8xFwThQAsPO2T1zHz3Q255JdRBFik1csGM5nU&amp;size=310635590&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6131067&amp;signature=cZ3ZI4T%2F1p12EHMK6kFL%2Fiipo5dvbFC9YUvL8daJKqE&amp;size=501022586&amp;length=1525052" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+
+    <item>
+      <title>Week of 1/26/2011</title>
+      <description>TRUE BLUE - This week, True Blue scouts out what many have billed as the biggest basketball game in Marriott Center history as the #9 BYU men's team prepares to host #4 SDSU.  True Blue and the women's gymnastics team pay tribute to BYU's late athletic trainer, Gay Merrill.  Then, get to know men's volleyball freshman phenom, Taylor Sander.</description>
+      <guid isPermaLink="false">5rb2QwMjpaiDjIXqZBNSetIw5n0N8vR9</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=5rb2QwMjpaiDjIXqZBNSetIw5n0N8vR9&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 26 Jan 2011 20:11:12 +0000</pubDate>
+
+      <media:title>Week of 1/26/2011</media:title>
+      <media:description>TRUE BLUE - This week, True Blue scouts out what many have billed as the biggest basketball game in Marriott Center history as the #9 BYU men's team prepares to host #4 SDSU.  True Blue and the women's gymnastics team pay tribute to BYU's late athletic trainer, Gay Merrill.  Then, get to know men's volleyball freshman phenom, Taylor Sander.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:category scheme="http://www.ooyala.com">/Jimmer Channel/Stories</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/5rb2QwMjpaiDjIXqZBNSetIw5n0N8vR9/Ut_HKthATH4eww8X5iMDoxOjBhOwYpZ3" width="320" height="180"/>
+      <dcterms:valid>start=2011-01-26T20:11+00:00;scheme=W3C-DTF</dcterms:valid>
+
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132901&amp;signature=B%2F3KOnjH5xGKmLbkm98zWULjVtf0M1x9D6a6YeGbvgQ&amp;size=7141851&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="16" framerate="29.97" samplingrate="16.0" duration="1525" lang="en" width="320" height="180"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6133111&amp;signature=mPVJxPf%2B8p%2FUHa%2F09GS8RCPgOBiuAHR05xAE4Zj2HXc&amp;size=7411712&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="22" framerate="29.97" samplingrate="16.0" duration="1525" lang="en" width="320" height="180"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130649&amp;signature=IZ7S547c7ap7Z%2BbWYliqumgBLuHuvIOSDRqfpF%2B%2FmAg&amp;size=40090119&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="140" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132896&amp;signature=5Yt0eqXwwZpeh51YFGoX1QkunUMRBcHBoIwwWc69JMc&amp;size=42562824&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="159" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132636&amp;signature=T8oWyRx5CnCmkAZKh01qyv8%2BLnhc%2FQFB1qgH8CBJ1y8&amp;size=42565456&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="159" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130653&amp;signature=sod%2F6wAokV2SxidUNwBATvDxC0PNg7gTabPwj8xmVFw&amp;size=70148867&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="300" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132639&amp;signature=fbp3KFbQMGJm%2B5LYobcZmHSSSrE8yWzAaXN0Ho99PNw&amp;size=73194416&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="320" framerate="29.97" samplingrate="32.0" duration="1525" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130667&amp;signature=92nC8Oo0qyG9lGlHdeyjX%2FKgOMSlewF8UEeyD6%2F4%2FGI&amp;size=133433460&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="600" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132971&amp;signature=eMFyTOilF578Alnv9mEgFqI59KrtKNH4OBL%2BaHcTMJ4&amp;size=137739704&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="627" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132642&amp;signature=kbcssKeijXgcCsfwR7XY1rP41Kw39jF7OVFdq7qH3%2Bo&amp;size=137729740&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="627" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130673&amp;signature=%2FM22AQOJTc8k3gzgUad2t3Kn4X2P%2B3cc%2FagYuSPHJBU&amp;size=170964617&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="800" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132790&amp;signature=urg7tr5Pfjodn97%2BsgrsGxsD3CdzCEsp4HCXygx32tk&amp;size=176065760&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="828" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6133057&amp;signature=6RCUDC8wUIikKlOmfWCsMP97O7%2BFuwUvss84MX94D%2Fc&amp;size=176065572&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="828" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130711&amp;signature=tePDyDC6b76Z4Q29Bjo4daOCSLKidYazPynNobqVl4Q&amp;size=248307026&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="1200" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132973&amp;signature=j3vLmTvPKZrxo%2FJ5njPINZ%2BNVqKHuwkSluRXWhuKs%2Bg&amp;size=254951688&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="1243" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6132791&amp;signature=jTKteAYh%2BaBsjKoyiUxURYe5B1B48KjVWEI3%2FNVeOjY&amp;size=254953568&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="1243" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6133029&amp;signature=3HmiyYm%2Bh6Bn9vgjQQXrd%2F2ZVr%2FlzjWg8KUTVfP1xsQ&amp;size=254951688&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="1243" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130703&amp;signature=Ir6pqm%2B6y407%2FNnqxndZXRiOk1DRMkVScSxSV%2FgzZ6o&amp;size=310670595&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6130722&amp;signature=b3BNhY42ZALb8EAyqTtKEp3dXwIwr5v45GIArT3SHKY&amp;size=500984195&amp;length=1525070" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1525" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 1/19/2011</title>
+      <description>TRUE BLUE - One high school has turned out more BYU basketball players than any other, and this week True Blue takes you there to meet the growing Cougars. Then meet one of the men behind the  Cougars' dream season: Coach Dave Rice. Finally, True Blue serves up the hottest ticket on campus as men's volleyball returns to the Smith Fieldhouse.</description>
+      <guid isPermaLink="false">cxZXN5MTpbNALjHN-LMEL16tD1Us4NHp</guid>
+
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=cxZXN5MTpbNALjHN-LMEL16tD1Us4NHp&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Thu, 20 Jan 2011 16:32:44 +0000</pubDate>
+      <media:title>Week of 1/19/2011</media:title>
+      <media:description>TRUE BLUE - One high school has turned out more BYU basketball players than any other, and this week True Blue takes you there to meet the growing Cougars. Then meet one of the men behind the  Cougars' dream season: Coach Dave Rice. Finally, True Blue serves up the hottest ticket on campus as men's volleyball returns to the Smith Fieldhouse.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+
+      <media:thumbnail url="http://ak.c.ooyala.com/cxZXN5MTpbNALjHN-LMEL16tD1Us4NHp/Ut_HKthATH4eww8X5iMDoxOjBhOwYpZ3" width="320" height="180"/>
+      <dcterms:valid>start=2011-01-20T16:32+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6165044&amp;signature=9gxbfa2X0wA0Qi%2BhgEEwMSvDJc01ev1N%2B6MY8waVMvY&amp;size=7200362&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="16" framerate="29.97" samplingrate="16.0" duration="1524" lang="en" width="320" height="180"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6165058&amp;signature=3Ljr525gUhHhdgs9XcJ4YMiTl1mAjWHg51tC6SsQcJE&amp;size=7472060&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="23" framerate="29.97" samplingrate="16.0" duration="1524" lang="en" width="320" height="180"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164827&amp;signature=1JbOy9AErd0IF0xRkSTLSa09OCfGAKr6mYjYPNrpMx0&amp;size=40687598&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="140" framerate="29.97" samplingrate="32.0" duration="1524" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164833&amp;signature=niFTuLZkT3HPiZ5P%2FrHLolQ5OEc8yjxxXlA%2F%2FWsZ3wI&amp;size=43215184&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="162" framerate="29.97" samplingrate="32.0" duration="1524" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164832&amp;signature=1eaeKKqFBrM61ELZ%2BEVLBGcTQvK1E173446flMPv00I&amp;size=71171385&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="300" framerate="29.97" samplingrate="32.0" duration="1524" lang="en" width="400" height="225"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164844&amp;signature=FvQRvnNeyCVlnLxGoLOe5aYKVB5Xw6ZVl6uJcGW0Jbo&amp;size=74227100&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="325" framerate="29.97" samplingrate="32.0" duration="1524" lang="en" width="400" height="225"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164851&amp;signature=eBV%2BFDGHJTREqVXkAiLpt2VRtDF2NQTSrP1S0D%2Bn13I&amp;size=135226452&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="600" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164868&amp;signature=0nHPXPP4osbdRR2e2fs9g8zoZNCvYEiSwPHyGKMLoRc&amp;size=139539616&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="636" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164873&amp;signature=ncchrJdkiPejZH8f0Lw%2F0S3NbaVB%2BIoem4Srf7G00cg&amp;size=139524200&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="636" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164869&amp;signature=rvHNl7cl2qdtP3stXxunLLhZIUtUqoB0ESeW6U9ZLs0&amp;size=172890238&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="800" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164880&amp;signature=RHGsm07A0eSLRSfMykyQtpMOwk3REGSWnIMpyn6mBEQ&amp;size=177997836&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="838" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164916&amp;signature=LH7Er6Bt6%2FK4TfyL%2FMIdrc%2BZVKPL%2FbZbOlbr3siKvtI&amp;size=177993888&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="838" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876887&amp;streamID=6164895&amp;signature=Lap61rIxhCjveEDe9HMFXMIFCgQnAC1GyrEPLhyoPjA&amp;size=177993888&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="838" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=6164914&amp;signature=KNP0Akn7qCmBimNlPzHe5UQWAnqaPuf86MOwsCmsrx0&amp;size=177997836&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="838" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="640" height="360"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=6164886&amp;signature=WWehNHmL7z3zPL2XClVsrcAEkDJv6Fvr8hXnK3J7KPM&amp;size=252894454&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="1200" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=6164896&amp;signature=w6W7hO5MoNe7UPUpEXG6KAugrBnYz1gfKnmlIlwm%2FY0&amp;size=259656388&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="1266" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=6165029&amp;signature=YTbTDpzBfCJdic%2B0pWbORuvqFe9zUd6OaXU68MYz0Qs&amp;size=259638340&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="1266" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=6164907&amp;signature=Moxy%2BQ4BzFDzP05EB1sMrSd9LCT75aJjIbdSjgql6Jo&amp;size=310776848&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=6164978&amp;signature=%2FIlNKD6D00%2BzzFy2HWkowtx4%2BhcD1wLFOHMhPK%2BR%2F5E&amp;size=501193442&amp;length=1524491" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1524" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 1/12/2011</title>
+
+      <description>TRUE BLUE - The Cougars kick off independence this fall with a brand-new offensive coordinator. Meet Brandon Doman and find out what direction he plans an taking the offense this next season. Then, sit down with Coach Judkins as his Lady Cougars get ready to take on the Utes--10  years after Judkins left the University of Utah for rival BYU. Finally, meet BYU freshman Kate Hansen, who is taking a lunge and making the luge team for the United States.</description>
+      <guid isPermaLink="false">hxbGN5MTq2eYxPBz13Hpzbwvl_Jt2-gO</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=hxbGN5MTq2eYxPBz13Hpzbwvl_Jt2-gO&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Fri, 14 Jan 2011 00:32:30 +0000</pubDate>
+      <media:title>Week of 1/12/2011</media:title>
+
+      <media:description>TRUE BLUE - The Cougars kick off independence this fall with a brand-new offensive coordinator. Meet Brandon Doman and find out what direction he plans an taking the offense this next season. Then, sit down with Coach Judkins as his Lady Cougars get ready to take on the Utes--10  years after Judkins left the University of Utah for rival BYU. Finally, meet BYU freshman Kate Hansen, who is taking a lunge and making the luge team for the United States.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/hxbGN5MTq2eYxPBz13Hpzbwvl_Jt2-gO/67Goiib1gXKcg1XX5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2011-01-14T00:32+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5624664&amp;signature=78sX3aVs1zRydRSWH9IF%2FaZhPwkNw103HHZ5hjwz7Jo&amp;size=89476621&amp;length=1526426" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1526" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5624666&amp;signature=8%2BU647Ype9U6QDpu79Jb%2FzPEKaJtLbDjs%2FKu9mBH3Ss&amp;size=159075070&amp;length=1526426" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1526" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5624736&amp;signature=hS%2F4uxJ2kMK0OFz91avM1hj0IyHAyl68Nloll2gVvO4&amp;size=215810454&amp;length=1526426" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1526" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5624668&amp;signature=VB2wS7CWH3yMbPs0LrAbG%2BtbWN%2F6vJZcmWYXb68XX%2Fc&amp;size=309892290&amp;length=1526426" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1526" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5624782&amp;signature=zhYykfATTqe8RhzYXbTGoAuW%2F4lAlkQq8wx1WMIVJhQ&amp;size=497848959&amp;length=1526426" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1526" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 1/5/2011</title>
+      <description>TRUE BLUE - This episode previews the BYU's men's basketball team's first conference game of the season, a matchup with nationally ranked UNLV in Las Vegas, as they take one last tour through the Mountain West Conference.  True Blue then profiles men's basketball player, James Anderson and women's basketball point guard, Jasmine Foreman.  Finally, get a tour of BYU Broadcasting's brand new building and a look at the role it will play in producing more BYU sports broadcasts.</description>
+
+      <guid isPermaLink="false">J5aHR4MTqQ-2Elo3F0-Ir1iIfs9rCpva</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=J5aHR4MTqQ-2Elo3F0-Ir1iIfs9rCpva&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 05 Jan 2011 16:48:12 +0000</pubDate>
+      <media:title>Week of 1/5/2011</media:title>
+      <media:description>TRUE BLUE - This episode previews the BYU's men's basketball team's first conference game of the season, a matchup with nationally ranked UNLV in Las Vegas, as they take one last tour through the Mountain West Conference.  True Blue then profiles men's basketball player, James Anderson and women's basketball point guard, Jasmine Foreman.  Finally, get a tour of BYU Broadcasting's brand new building and a look at the role it will play in producing more BYU sports broadcasts.</media:description>
+
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:category scheme="http://www.ooyala.com">/Jimmer Channel/Stories</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/J5aHR4MTqQ-2Elo3F0-Ir1iIfs9rCpva/_ol94vjVA3A6fS6n5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2011-01-05T16:48+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5502137&amp;signature=2EY3vn1%2BHN8Ov4rOk4vsz9IF7305KV7SOHReYdb1Xko&amp;size=81891659&amp;length=1412245" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1412" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5502146&amp;signature=fT8I8kHNTbEhD5rX%2Fs7ku0yNTLRzIi%2BXBrOhyBo45xM&amp;size=146029631&amp;length=1412245" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1412" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5502155&amp;signature=DHtlmeN2PD4A%2FeOXQQU0IA%2FWVt8ln0E%2BbCuU%2FVW%2BuQk&amp;size=199081564&amp;length=1412245" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1412" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5502241&amp;signature=KSLLqwNIbLdRRnBYObMMnN5l2n3i6HVJ%2FYjUvFPwaA8&amp;size=287618390&amp;length=1412245" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1412" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5502206&amp;signature=PwYCSPC%2FDiv%2BUYe2dKA9mQRP5MuwHXatJE%2FV%2BGAueCc&amp;size=464922293&amp;length=1412245" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1412" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 12/22/2010</title>
+      <description>TRUE BLUE - This week's special episode highlights BYU's victory over UTEP in the New Mexico Bowl and offers an early outlook on next year's potential for success.</description>
+
+      <guid isPermaLink="false">xsNDF4MTrcizyevNR-G14CixGB7OJNBI</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=xsNDF4MTrcizyevNR-G14CixGB7OJNBI&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Thu, 23 Dec 2010 01:16:30 +0000</pubDate>
+      <media:title>Week of 12/22/2010</media:title>
+      <media:description>TRUE BLUE - This week's special episode highlights BYU's victory over UTEP in the New Mexico Bowl and offers an early outlook on next year's potential for success.</media:description>
+
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:category scheme="http://www.ooyala.com">/Jimmer Channel/Stories</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/xsNDF4MTrcizyevNR-G14CixGB7OJNBI/eWzN3_mfRvUdi3IX5hMDoxOjBrOw-uIx" width="640" height="360"/>
+      <dcterms:valid>start=2010-12-23T01:16+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5362258&amp;signature=FjlR7crhpVnrw3rs1axgQ7nL%2BnqjHMScK2voWSQmiTI&amp;size=81297342&amp;length=1384517" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1384" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5362422&amp;signature=vpvglk6ulEDo6fvqZzIwst2rh2os%2BBjUClfPo6E13Lk&amp;size=144368026&amp;length=1384517" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1384" lang="en" width="640" height="360"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5362292&amp;signature=%2BgxiAlmckb6glaAbznaBzZT%2BLuWnDAWmBtervZuuXXU&amp;size=196363707&amp;length=1384517" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1384" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5362267&amp;signature=vKD9FzBlc02z18RNz4jm8Ay8n0qS2aqjiqXJp5FHg0Q&amp;size=282955044&amp;length=1384517" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1384" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5362279&amp;signature=L8XT%2BaAIGOsBw4aQnIj8DSaxqJxL2MHCycfEQx85YFM&amp;size=442725268&amp;length=1384517" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1384" lang="en" width="640" height="360"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 12/29/2010</title>
+      <description>TRUE BLUE - This week's episode takes a look a back at some of the lives that were touched by the football team and their participation in the Thursday Heroes program this past season.</description>
+
+      <guid isPermaLink="false">c4anl3MToruKY0gJ2lp8hx4OXVz-TjCz</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=c4anl3MToruKY0gJ2lp8hx4OXVz-TjCz&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 22 Dec 2010 17:45:37 +0000</pubDate>
+      <media:title>Week of 12/29/2010</media:title>
+      <media:description>TRUE BLUE - This week's episode takes a look a back at some of the lives that were touched by the football team and their participation in the Thursday Heroes program this past season.</media:description>
+
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/c4anl3MToruKY0gJ2lp8hx4OXVz-TjCz/Ut_HKthATH4eww8X5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2010-12-22T17:45+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5357819&amp;signature=pW2FOuOYRHhpSW%2FX7XoZthQgrwCpWL8i4mgb7vcJy7Y&amp;size=100450598&amp;length=1715148" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1715" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5357760&amp;signature=zZ7I64gy%2BGNnem28dFuEe7%2B0SBxhnvWuAgzpCL%2B%2BUyg&amp;size=178697120&amp;length=1715148" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1715" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5357759&amp;signature=3KRV1SrwL96%2BhHaOSPVnA1Cf2NLZqaSftSuWPc5ReFU&amp;size=242959944&amp;length=1715148" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1715" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5357975&amp;signature=EOFNXNi9tQ%2BRxrChEzobpInc%2F3MOEVn0equrKqLeJuI&amp;size=350155476&amp;length=1715148" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1715" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5358063&amp;signature=Vysj0wThfs4lxBGSm38TNtVrlvRmlVLuWVMyh6Ibhv8&amp;size=564600192&amp;length=1715148" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1715" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 12/15/2010</title>
+      <description>TRUE BLUE</description>
+      <guid isPermaLink="false">tzdWN3MTqgLZQMqdbjk_ecRZtHO3BryE</guid>
+
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=tzdWN3MTqgLZQMqdbjk_ecRZtHO3BryE&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 15 Dec 2010 03:54:57 +0000</pubDate>
+      <media:title>Week of 12/15/2010</media:title>
+      <media:description>TRUE BLUE</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+
+      <media:category scheme="http://www.ooyala.com">/Jimmer Channel/Stories</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/tzdWN3MTqgLZQMqdbjk_ecRZtHO3BryE/FU9_g1tYovi2HKU35hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2010-12-15T03:54+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5290544&amp;signature=sMTigN%2BzXJb2ME5A4EUsDiwfbvua6%2BfKLTFz8zTycJc&amp;size=92668836&amp;length=1607607" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1607" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5290520&amp;signature=ypTK8AaAOdI62S61WrWH4KBBjtOw1uNsSwe%2B0gTp%2BJ8&amp;size=165914981&amp;length=1607607" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1607" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5290590&amp;signature=rmdOvqmhL4SbxWjEyqhFnTZoqjrPkXrYNsyCUCVw8ZM&amp;size=226179237&amp;length=1607607" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1607" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5290624&amp;signature=CDwxp6hFH%2F%2BTd1YuNOeDovc4vvOluaf54XDWuYPTgb0&amp;size=326652961&amp;length=1607607" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1607" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5290523&amp;signature=Mj5P3n%2B9cW8g78a1p%2FLB3Pq2yjjnMcl43XfiyZMzmKg&amp;size=527543849&amp;length=1607607" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1607" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 12/8/2010</title>
+      <description>TRUE BLUE - This 1-hour special edition includes an announcement from BYU athletic director Tom Holmoe about the 2011 football schedule. Then get an exciting preview of the upcoming New Mexico Bowl on December 18.</description>
+      <guid isPermaLink="false">tkMG52MTom1gQFp2LRL5R51vTnaKUA3O</guid>
+
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=tkMG52MTom1gQFp2LRL5R51vTnaKUA3O&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 08 Dec 2010 03:17:28 +0000</pubDate>
+      <media:title>Week of 12/8/2010</media:title>
+      <media:description>TRUE BLUE - This 1-hour special edition includes an announcement from BYU athletic director Tom Holmoe about the 2011 football schedule. Then get an exciting preview of the upcoming New Mexico Bowl on December 18.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+
+      <media:thumbnail url="http://ak.c.ooyala.com/tkMG52MTom1gQFp2LRL5R51vTnaKUA3O/YbVxE1tkhBMkcFvn5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2010-12-08T03:17+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5229956&amp;signature=cGsn8PjH3k4FjGQST3FeNxi5U%2F%2FLPkiQl%2BZjwPCpy4s&amp;size=181224052&amp;length=3134434" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="3134" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5230033&amp;signature=A6WZg2K%2FMaysa%2FygMsm%2F4c%2FIUX3UW8RfHTVozbr6cPk&amp;size=323945762&amp;length=3134434" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="3134" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5230063&amp;signature=c1pdIM7FiLxAaq0Tfq7QqpHL9alsv6rymKHbS9jGAI8&amp;size=441133066&amp;length=3134434" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="3134" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5230061&amp;signature=xG1046Vjw%2FsiGO5AoamMallCe74GW784AUJIYUCCXjw&amp;size=637072332&amp;length=3134434" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="3134" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5230194&amp;signature=XjxETAXXpFSpJIH7nyW%2Fz9zxVI4UmzpAobMgh4vqi2s&amp;size=1029334100&amp;length=3134434" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="3134" lang="en" width="1280" height="720"/>
+
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 12/1/2010</title>
+      <description>TRUE BLUE</description>
+      <guid isPermaLink="false">14ZjR2MTputMvBEoA5IQiFAD-GruhwVW</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=14ZjR2MTputMvBEoA5IQiFAD-GruhwVW&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+
+      <pubDate>Wed, 01 Dec 2010 17:48:56 +0000</pubDate>
+      <media:title>Week of 12/1/2010</media:title>
+      <media:description>TRUE BLUE</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:category scheme="http://www.ooyala.com">/Jimmer Channel/Stories</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/14ZjR2MTputMvBEoA5IQiFAD-GruhwVW/promo115501150" width="0" height="0"/>
+
+      <dcterms:valid>start=2010-12-01T17:48+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5103958&amp;signature=cjfQ2nTGGtGG1rPT6tNBEMqZ1JyqjwZEf4hsb41%2BEP0&amp;size=104368668&amp;length=1795395" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1795" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5103984&amp;signature=o4ZEn01tRRj%2FcOgUDNmoSI8fyvr6QJ9zzzyifyKbWAE&amp;size=187813198&amp;length=1795395" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1795" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5104000&amp;signature=hUokJ9E%2B6h0Jbb95HIB12Rm1cWgJgg2sxMpJKtGl2EQ&amp;size=256066917&amp;length=1795395" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1795" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5104001&amp;signature=%2FhTjW2FRcRO8TEGZZxWj0CvaPXOTYD4ne%2BhUJQEs5qw&amp;size=368437798&amp;length=1795395" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1795" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=5104017&amp;signature=V4pqWZRC7nNdTe54ZmEa%2F8YtWO6wnEys4c5%2FIE9oizk&amp;size=589320676&amp;length=1795395" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1795" lang="en" width="1280" height="720"/>
+      </media:group>
+
+    </item>
+    <item>
+      <title>Week of 11/24/2010</title>
+      <description>TRUE BLUE</description>
+      <guid isPermaLink="false">QyeGt1MTrWNzuJXPI7amO2L9P3XtzpEb</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=QyeGt1MTrWNzuJXPI7amO2L9P3XtzpEb&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+
+      <pubDate>Tue, 23 Nov 2010 21:27:03 +0000</pubDate>
+      <media:title>Week of 11/24/2010</media:title>
+      <media:description>TRUE BLUE</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/QyeGt1MTrWNzuJXPI7amO2L9P3XtzpEb/AQpGQNDqsqkZ2gVX5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2010-11-23T21:27+00:00;scheme=W3C-DTF</dcterms:valid>
+
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4930354&amp;signature=A%2B%2FepB44INrhTeQQBoOr8JdZ8wddD1HgmtsepDD5c2s&amp;size=104388283&amp;length=1794661" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1794" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4930416&amp;signature=TR1HBpUdWzG2qZL9SSTjoRSepUtkFmAji4ZNL0zspWk&amp;size=186837695&amp;length=1794661" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1794" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4930409&amp;signature=hRhHl0XQCuGrrKdwQ3wTjCRpzHMg5kuZBFN0Kn%2BdTz0&amp;size=254049148&amp;length=1794661" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1794" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4930441&amp;signature=Lj6Iw%2B0gS8O7hma75sYfYJdi%2F5tGmFDKJbjriJUnV%2FM&amp;size=366140626&amp;length=1794661" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1794" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4930407&amp;signature=vSrJBlRUmwnGrjwhUZ%2FgZcvzdHWg02AwA1PqBfeUqsk&amp;size=590575416&amp;length=1794661" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1794" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+
+      <title>TRUE BLUE SPECIAL EDITION - Utah Press Conference</title>
+      <description>Live press conference with Head Coach Bronco Mendenhall of the BYU Cougars, discussing their matchup with the Utah Utes.</description>
+      <guid isPermaLink="false">w0Ymt1MToD4j1kuiAm4I27zhsHgrNo9q</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=w0Ymt1MToD4j1kuiAm4I27zhsHgrNo9q&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Tue, 23 Nov 2010 18:28:53 +0000</pubDate>
+
+      <media:title>TRUE BLUE SPECIAL EDITION - Utah Press Conference</media:title>
+      <media:description>Live press conference with Head Coach Bronco Mendenhall of the BYU Cougars, discussing their matchup with the Utah Utes.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue Special Edition</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/w0Ymt1MToD4j1kuiAm4I27zhsHgrNo9q/2_umOLLFdd74UuNH5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2010-11-23T18:28+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4926976&amp;signature=7RV5rESFDwNenGLE3A5cOjcy69OI3vXr8vTw%2FwFpj3A&amp;size=95305984&amp;length=1635669" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1635" lang="en" width="640" height="360"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4927016&amp;signature=7MJDXHOfUzRFIdjgqR6QDDwND55JLQbMfPHymJvTa%2FE&amp;size=171021809&amp;length=1635669" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1635" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4926985&amp;signature=dw31XxCgz2gPYAsMgseK%2FLDl%2Fq%2BnKoLuuqZLGQ6pdkY&amp;size=232382036&amp;length=1635669" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1635" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4926995&amp;signature=WlVzxYOYbNVM%2FSCuf2hb0cJLrk8vYL%2F6nUxhueue7kI&amp;size=334689014&amp;length=1635669" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1635" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4927010&amp;signature=AJLNBn4X53i1Ti%2F97JI59yEtlNbE9zwRgQHODOJP0gg&amp;size=539303124&amp;length=1635669" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1635" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>Week of 11/17/2010</title>
+
+      <description>TRUE BLUE - The Cougars fought valiantly against Colorado State; relive highlights from the exciting game. Look forward to the basketball game against Utah State and meet some special tuba players in the Cougar Marching Band. Then, join the football team in welcoming a Thursday's Hero to practice.</description>
+      <guid isPermaLink="false">d3bXZ0MToXZqhbejmk-t8g7AkXrlg4zW</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=d3bXZ0MToXZqhbejmk-t8g7AkXrlg4zW&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Wed, 17 Nov 2010 17:10:55 +0000</pubDate>
+      <media:title>Week of 11/17/2010</media:title>
+
+      <media:description>TRUE BLUE - The Cougars fought valiantly against Colorado State; relive highlights from the exciting game. Look forward to the basketball game against Utah State and meet some special tuba players in the Cougar Marching Band. Then, join the football team in welcoming a Thursday's Hero to practice.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue</media:category>
+      <media:category scheme="http://www.ooyala.com">/Jimmer Channel/Stories</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/d3bXZ0MToXZqhbejmk-t8g7AkXrlg4zW/JBYwwSGYnAMXSdHn5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2010-11-17T17:10+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4802731&amp;signature=1elvKyWMUAAvrKxq%2FjV1uRPvSj9IQQFBOl820IFYQmE&amp;size=93896267&amp;length=1628361" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1628" lang="en" width="640" height="360"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4802738&amp;signature=ugwUUnBFYMlcENZK6y39%2BDDCEi7JuBJD92%2FMp1VUec4&amp;size=168757711&amp;length=1628361" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1628" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4802742&amp;signature=1GBwt%2FbsnddgvwlPnG5RmIHxgwR9i14vXybKLRifurg&amp;size=229184510&amp;length=1628361" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1628" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4802740&amp;signature=1q35pUym7Pnm55XGhxaMo%2BPUJZFKYvUqh8MlqNwy8qE&amp;size=330987541&amp;length=1628361" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1628" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4802743&amp;signature=4aTsMEs8TNjUzPcuntplMbZUbBFoP%2BPR5z64WEz88To&amp;size=531604676&amp;length=1628361" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1628" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+    <item>
+      <title>TRUE BLUE SPECIAL EDITION - New Mexico Press Conference</title>
+
+      <description>Live press conference with Head Coach Bronco Mendenhall of the BYU Cougars, discussing their matchup with the New Mexico Lobos.</description>
+      <guid isPermaLink="false">13a3R0MTrRerg1NsjhaegQuUTeFbFpjn</guid>
+      <link>http://api.ooyala.com/syndication/redirect?embed_code=13a3R0MTrRerg1NsjhaegQuUTeFbFpjn&amp;type=mp4&amp;id=d248721a-cc11-45a4-a336-0602666d9800</link>
+      <pubDate>Tue, 16 Nov 2010 19:11:08 +0000</pubDate>
+      <media:title>TRUE BLUE SPECIAL EDITION - New Mexico Press Conference</media:title>
+
+      <media:description>Live press conference with Head Coach Bronco Mendenhall of the BYU Cougars, discussing their matchup with the New Mexico Lobos.</media:description>
+      <media:category scheme="http://www.ooyala.com">/BYUTV/True Blue Special Edition</media:category>
+      <media:thumbnail url="http://ak.c.ooyala.com/13a3R0MTrRerg1NsjhaegQuUTeFbFpjn/dyqjiTZI9q2-d8JH5hMDoxOmFkO7UOTK" width="426" height="239"/>
+      <dcterms:valid>start=2010-11-16T19:11+00:00;scheme=W3C-DTF</dcterms:valid>
+      <media:group>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4785518&amp;signature=faoAN2t7K0wxnVZgrVB%2FbwNeVqJTqSddS5n5IpI5atA&amp;size=90640272&amp;length=1548114" type="video/mp4" medium="video" expression="full" bitrate="400" framerate="29.97" samplingrate="44.1" duration="1548" lang="en" width="640" height="360"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4785427&amp;signature=2X6XyEO4IZsbBbtmb0wxPSIRi%2F%2FiDdgWls7sHCF7WHY&amp;size=161984235&amp;length=1548114" type="video/mp4" medium="video" expression="full" bitrate="700" framerate="29.97" samplingrate="44.1" duration="1548" lang="en" width="1280" height="720"/>
+
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4785708&amp;signature=2g2TCbeJUxpgQBRi0lXar6FL41PYidKmW2q7Yo0yH%2Bk&amp;size=219981525&amp;length=1548114" type="video/mp4" medium="video" expression="full" bitrate="1000" framerate="29.97" samplingrate="44.1" duration="1548" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4785757&amp;signature=Tqff9kIm%2BADawFA6Zk1Q5yOX0HNpRUU1OEAJXck%2FQg4&amp;size=316888191&amp;length=1548114" type="video/mp4" medium="video" expression="full" bitrate="1500" framerate="29.97" samplingrate="44.1" duration="1548" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4786020&amp;signature=KzhlhzQN3JGAcRL4zDQTQDmLb0XzPX9PCvDhvWuPRTk&amp;size=510611665&amp;length=1548114" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1548" lang="en" width="1280" height="720"/>
+        <media:content url="http://api.ooyala.com/syndication/stream_redirect?pcode=Iyamk6YZTw8DxrC60h0fQipg3BfO&amp;expires=1297876888&amp;streamID=4786511&amp;signature=US6btRw83ZzMJKKeyliVPiaaWZyGOrDtpZkU3eeh7kw&amp;size=510611665&amp;length=1548114" type="video/mp4" medium="video" expression="full" bitrate="2500" framerate="29.97" samplingrate="44.1" duration="1548" lang="en" width="1280" height="720"/>
+      </media:group>
+    </item>
+
+  </channel>
+</rss>

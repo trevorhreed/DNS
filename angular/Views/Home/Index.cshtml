@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div ng-app="myapp" ng-controller="main">
+    <div class="jumbotron">
+        <h1>ASP.NET {{test}}</h1>
+        <pre>{{person | json}}</pre>
+    </div>
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/app")
+}
