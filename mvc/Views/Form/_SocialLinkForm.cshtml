@@ -1,0 +1,5 @@
+﻿@model mvc.Models.SocialLink
+
+@Html.EnumDropDownListFor(m => m.SocialSite)
+@Html.TextBoxFor(m => m.URI)
+<button type="button" class="remove-social-link">Remove</button>

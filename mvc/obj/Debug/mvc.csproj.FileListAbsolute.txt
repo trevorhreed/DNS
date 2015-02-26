@@ -54,3 +54,4 @@ C:\projects\vs\dns\mvc\obj\Debug\mvc.dll
 C:\projects\vs\dns\mvc\obj\Debug\mvc.pdb
 C:\projects\vs\dns\mvc\bin\log4net.dll
 C:\projects\vs\dns\mvc\bin\log4net.xml
+C:\projects\vs\dns\mvc\obj\Debug\mvc.csprojResolveAssemblyReference.cache
