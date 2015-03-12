@@ -10,7 +10,7 @@ namespace angular.Controllers
 {
     public class DefaultController : ApiController
     {
-        new List<Person> people = new List<Person>()
+        List<Person> people = new List<Person>()
         {
             new Person(){
                 Name = "Trevor",
