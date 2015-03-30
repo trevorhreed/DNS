@@ -1,14 +1,112 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+	ViewBag.Title = "Home Page";
 }
-<div ng-app="myapp" ng-controller="main">
-    <div class="jumbotron">
-        <h1>ASP.NET {{test}}</h1>
-        <pre>{{person | json}}</pre>
-    </div>
+
+@section head {
+	<link rel="stylesheet" href="~/Styles/less/views/main.min.css" />
+}
+
+<div ng-app="myapp" ng-controller="main" ui-view>
+
+	<div class="panel panel-default person-form">
+		<div class="panel-heading">
+			Edit Person
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="form-group col-md-4">
+					<label>Name</label>
+					<input type="text" class="form-control" ng-model="person.Name" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-md-6">
+					<label>Email</label>
+					<input type="text" class="form-control" ng-model="person.Email" />
+				</div>
+			</div>
+			<div class="phones">
+				<label>Phone</label>
+				<div class="form-group" ng-repeat="phone in person.Phones track by $index">
+					<div class="row">
+						<div class="col-md-4">
+							<input type="text" class="form-control" ng-model="person.Phones[$index]" />
+						</div>
+						<div class="col-md-2">
+							<buttno class="btn btn-danger" ng-click="person.Phones.splice($index, 1)">Remove</buttno>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-default" ng-click="person.Phones.push('')">Add Phone</button>
+				</div>
+			</div>
+			<div class="address">
+				<div class="title">Address</div>
+				<div class="sub-level">
+					<div class="row">
+						<div class="form-group col-md-10">
+							<label>Street</label>
+							<input type="text" class="form-control" ng-model="person.Address.Street" />
+						</div>
+						<div class="form-group col-md-2">
+							<label>Apt</label>
+							<input type="text" class="form-control" ng-model="person.Address.Apt" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-5">
+							<label>City</label>
+							<input type="text" class="form-control" ng-model="person.Address.City" />
+						</div>
+						<div class="form-group col-md-5">
+							<label>State</label>
+							<input type="text" class="form-control" ng-model="person.Address.State" />
+						</div>
+						<div class="form-group col-md-2">
+							<label>Zip</label>
+							<input type="text" class="form-control" ng-model="person.Address.Zip" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<button class="btn btn-primary" ng-click="save()">Save</button>
+				<button class="btn btn-default" ng-click="deselectPerson()">Cancel</button>
+			</div>
+		</div>
+	</div>
+
+	<div ng-repeat="person in people" class="person-details">
+		<div class="name">
+			{{person.Name}}
+			<a href="javascript:void(0);" ng-click="edit($index)">Edit</a>
+			<a href="javascript:void(0);" ng-click="del($index)">Delete</a>
+		</div>
+		<div class="email">{{person.Email}}</div>
+		<div ng-repeat="phone in person.Phones" class="phones">
+			<div class="phone">{{phone}}</div>
+		</div>
+		<div class="address">
+			<div class="line1">
+				<span class="street">{{person.Address.Street}}</span>
+				<span class="apt">{{person.Address.Apt}}</span>
+			</div>
+			<div class="line2">
+				<span class="city">{{person.Address.City}}</span>
+				<span class="state">{{person.Address.State}}</span>
+				<span class="zip">{{person.Address.Zip}}</span>
+			</div>
+		</div>
+	</div>
+
+	<pre ng-if="true">{{people | json}}</pre>
+
+	<div style="margin:3rem;background-color:#eee;border:solid 1px #ddd;box-shadow:0 0 .5rem #aaa;"></div>
 
 </div>
 
 @section Scripts {
-    @Scripts.Render("~/bundles/app")
+	@Scripts.Render("~/bundles/app")
 }

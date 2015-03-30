@@ -31,7 +31,7 @@ namespace angular
                 "~/Scripts/libs/angular.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
-                "~/Scripts/app.js"));
+                "~/app.js"));
         }
     }
 }

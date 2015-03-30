@@ -1,0 +1,41 @@
+﻿a,
+a:hover {
+  text-decoration: none;
+}
+.person-form {
+  margin: 2rem 0;
+}
+.person-form .address {
+  margin-top: 1rem;
+}
+.person-form .address .title {
+  font-weight: bold;
+}
+.person-form .address .sub-level {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.person-details {
+  margin: 2rem 0;
+}
+.person-details .name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.person-details .name a {
+  font-size: 1rem;
+}
+.person-details .email {
+  margin-left: 1rem;
+}
+.person-details .phones {
+  margin-left: 1rem;
+}
+.person-details .address .line1,
+.person-details .address .line2 {
+  margin-left: 1rem;
+}
+.person-details .address .title {
+  font-weight: bold;
+  margin-top: 1rem;
+}
