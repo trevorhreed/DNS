@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.props" Condition="Exists('..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.props')" />
+  <Import Project="..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.props" Condition="Exists('..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -22,6 +24,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <TypeScriptToolsVersion>1.4</TypeScriptToolsVersion>
+    <NuGetPackageImportStamp>8e9fb547</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -186,37 +189,44 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="client\gulpfile.js" />
+    <Content Include="client\src\myapp\route.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\libs\angular-mocks.js" />
-    <Content Include="Scripts\libs\angular-sanitize.js" />
-    <Content Include="Scripts\libs\angular-sanitize.min.js" />
-    <Content Include="Scripts\libs\angular-ui-router.js" />
-    <Content Include="Scripts\libs\angular-ui-router.min.js" />
-    <Content Include="Scripts\libs\angular.js" />
-    <Content Include="Scripts\libs\angular.min.js" />
-    <Content Include="Scripts\libs\bootstrap.js" />
-    <Content Include="Scripts\libs\bootstrap.min.js" />
-    <Content Include="Scripts\libs\angular.min.js.map" />
-    <Content Include="Scripts\libs\angular-sanitize.min.js.map" />
+    <Content Include="client\dist\libs\angular-mocks.js" />
+    <Content Include="client\dist\libs\angular-sanitize.js" />
+    <Content Include="client\dist\libs\angular-sanitize.min.js" />
+    <Content Include="client\dist\libs\angular-ui-router.js" />
+    <Content Include="client\dist\libs\angular-ui-router.min.js" />
+    <Content Include="client\dist\libs\angular.js" />
+    <Content Include="client\dist\libs\angular.min.js" />
+    <Content Include="client\dist\libs\bootstrap.js" />
+    <Content Include="client\dist\libs\bootstrap.min.js" />
+    <Content Include="client\dist\libs\angular.min.js.map" />
+    <Content Include="client\dist\libs\angular-sanitize.min.js.map" />
     <Content Include="app.js.map">
       <DependentUpon>app.js</DependentUpon>
     </Content>
-    <None Include="Scripts\libs\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\libs\jquery-1.10.2.js" />
-    <Content Include="Scripts\libs\jquery-1.10.2.min.js" />
-    <None Include="Scripts\libs\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\libs\jquery.validate.js" />
-    <Content Include="Scripts\libs\jquery.validate.min.js" />
-    <Content Include="Scripts\libs\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\libs\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\libs\modernizr-2.6.2.js" />
-    <Content Include="Scripts\libs\respond.js" />
-    <Content Include="Scripts\libs\respond.min.js" />
+    <None Include=".bin\git.cmd" />
+    <None Include=".bin\grunt.cmd" />
+    <None Include=".bin\node.cmd" />
+    <None Include=".bin\npm.cmd" />
+    <None Include="client\dist\libs\jquery-1.10.2.intellisense.js" />
+    <Content Include="client\dist\libs\jquery-1.10.2.js" />
+    <Content Include="client\dist\libs\jquery-1.10.2.min.js" />
+    <None Include="client\dist\libs\jquery.validate-vsdoc.js" />
+    <Content Include="client\dist\libs\jquery.validate.js" />
+    <Content Include="client\dist\libs\jquery.validate.min.js" />
+    <Content Include="client\dist\libs\jquery.validate.unobtrusive.js" />
+    <Content Include="client\dist\libs\jquery.validate.unobtrusive.min.js" />
+    <Content Include="client\dist\libs\modernizr-2.6.2.js" />
+    <Content Include="client\dist\libs\respond.js" />
+    <Content Include="client\dist\libs\respond.min.js" />
+    <Content Include="npmPlaceholder.txt" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Styles\less\views\main.css">
       <DependentUpon>main.less</DependentUpon>
@@ -236,22 +246,22 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\libs\jquery-1.10.2.min.map" />
+    <Content Include="client\dist\libs\jquery-1.10.2.min.map" />
     <DotLess Include="Styles\less\views\main.less" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+    <Content Include="client\package.json" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\init.ts" />
-    <TypeScriptCompile Include="Scripts\src\people\MainController.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
@@ -299,6 +309,23 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Grunt.js.0.4.2.6\build\grunt.js.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grunt.js.0.4.2.6\build\grunt.js.targets'))" />
+    <Error Condition="!Exists('..\packages\Npm.js.1.3.15.7\build\npm.js.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Npm.js.1.3.15.7\build\npm.js.targets'))" />
+    <Error Condition="!Exists('..\packages\Gulp.js.1.0.2\build\gulp.js.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Gulp.js.1.0.2\build\gulp.js.targets'))" />
+    <Error Condition="!Exists('..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.props'))" />
+    <Error Condition="!Exists('..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.targets'))" />
+    <Error Condition="!Exists('..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.props'))" />
+    <Error Condition="!Exists('..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.targets'))" />
+  </Target>
+  <Import Project="..\packages\Grunt.js.0.4.2.6\build\grunt.js.targets" Condition="Exists('..\packages\Grunt.js.0.4.2.6\build\grunt.js.targets')" />
+  <Import Project="..\packages\Npm.js.1.3.15.7\build\npm.js.targets" Condition="Exists('..\packages\Npm.js.1.3.15.7\build\npm.js.targets')" />
+  <Import Project="..\packages\Gulp.js.1.0.2\build\gulp.js.targets" Condition="Exists('..\packages\Gulp.js.1.0.2\build\gulp.js.targets')" />
+  <Import Project="..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.targets" Condition="Exists('..\packages\MSBuild.Node.0.3.0\build\MSBuild.Node.targets')" />
+  <Import Project="..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.targets" Condition="Exists('..\packages\MSBuild.Gulp.0.4.3\build\MSBuild.Gulp.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

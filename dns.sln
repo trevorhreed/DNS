@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angular", "angular\angular.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{218F1A66-7F5F-45D1-97DD-738B6AA51994}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsonQuery", "jsonQuery\jsonQuery.csproj", "{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		All|Any CPU = All|Any CPU
@@ -50,6 +52,12 @@ Global
 		{218F1A66-7F5F-45D1-97DD-738B6AA51994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{218F1A66-7F5F-45D1-97DD-738B6AA51994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{218F1A66-7F5F-45D1-97DD-738B6AA51994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}.All|Any CPU.Build.0 = Release|Any CPU
+		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

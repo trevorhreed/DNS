@@ -1,0 +1,132 @@
+{
+	"people": {
+		"001": {
+			"name": "Trevor",
+			"dob": "1984.02.01",
+			"color": "navy",
+			"bio": "This is the story, all about how, my life got twist\u0027, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027",
+			"tall": true,
+			"age": 31
+		},
+		"002": {
+			"name": "Fred",
+			"dob": "1984.08.25",
+			"color": "green"
+		},
+		"003": {
+			"name": "Graham",
+			"dob": "1983.06.07",
+			"color": "blue"
+		},
+		"004": {
+			"name": "Ked",
+			"dob": "1983.11.15",
+			"color": "yellow"
+		}
+	},
+	"colors": {
+		"001": "white",
+		"002": "black",
+		"003": "blue",
+		"004": "red",
+		"005": "yellow",
+		"006": "green",
+		"007": "orange",
+		"008": "purple",
+		"009": "teal",
+		"010": "maroon",
+		"011": "pink"
+	},
+	"food": {
+		"fruits": [
+			"apple",
+			"banana",
+			"cherry",
+			"dragonberry",
+			"elderberry",
+			"figs",
+			"grapes",
+			"honeydew",
+			"kiwi",
+			"lime",
+			"mango",
+			"nectarines"
+		],
+		"veggies": [
+			"cucumber",
+			"broccoli",
+			"carrot"
+		]
+	},
+	"favorites": {
+		"people": {
+			"real": {
+				"39cdf5a4-44e3-4ac8-ac0f-e2a7fa8e4dd8": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy"
+				},
+				"cc27e246-e1b1-4d05-97d1-342d71d7a550": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy"
+				},
+				"127e5093-c380-4233-8ebf-dfb827320527": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy"
+				},
+				"6ba9c57d-3836-4533-b90d-da3b08bed901": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy",
+					"bio": "This is the story, all about how, my life got twist\u0027d, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027"
+				},
+				"16ef302e-c899-4589-bd65-57a64cca4348": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy",
+					"bio": "This is the story, all about how, my life got twist\u0027, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027"
+				},
+				"2fc6e606-a805-452c-b238-441b6b814406": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy",
+					"bio": "This is the story, all about how, my life got twist\u0027, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027"
+				},
+				"9d0ae7d9-b2bd-4536-af42-6e9ff78fca30": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy",
+					"bio": "This is the story, all about how, my life got twist\u0027, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027",
+					"tall": true,
+					"age": 31
+				},
+				"6d623107-24d8-49d6-95d7-6a3d553f9080": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy",
+					"bio": "This is the story, all about how, my life got twist\u0027, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027",
+					"tall": true,
+					"age": 31
+				},
+				"64395230-e5a6-4874-806b-21fa3405e353": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy",
+					"bio": "This is the story, all about how, my life got twist\u0027, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027",
+					"tall": true,
+					"age": 31
+				},
+				"cf2d2509-84a3-40a2-96a0-56f2e7a76e1a": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy",
+					"bio": "This is the story, all about how, my life got twist\u0027, turned \"up-side-down\", yo. Check it: \"he said, \u0027yo man\u0027, \", and that was it!\u0027",
+					"tall": true,
+					"age": 31
+				}
+			}
+		}
+	}
+}

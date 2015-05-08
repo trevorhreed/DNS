@@ -1,5 +1,8 @@
-﻿using MyApp.board;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Web.Script.Serialization;
 
 namespace MyApp
 {
@@ -7,8 +10,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            new BoardApp().run();
+			Console.WriteLine("Hello World!");
         }
     }
-
 }

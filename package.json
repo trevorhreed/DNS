@@ -1,0 +1,14 @@
+{
+  "name": "someProj",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.5",
+    "gulp-util": "~3.0.4",
+    "gulp": "~3.8.11"
+  }
+}

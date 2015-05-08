@@ -1,0 +1,11 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "An example module to illustrate the usage of a package.json",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+      "coffee-script": "~1.6.3"
+  }
+}
