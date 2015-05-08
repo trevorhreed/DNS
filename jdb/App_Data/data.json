@@ -1,0 +1,82 @@
+{
+	"test": "[null]",
+	"people": {
+		"001": {
+			"name": "Trevor",
+			"dob": "1984.02.01",
+			"color": "navy",
+			"bio": "This is the story, all about how...",
+			"age": 31
+		},
+		"002": {
+			"name": "Fred",
+			"dob": "1984.08.25",
+			"color": "green"
+		},
+		"003": {
+			"name": "Graham",
+			"dob": "1983.06.07",
+			"color": "blue"
+		},
+		"004": {
+			"name": "Ked",
+			"dob": "1983.11.15",
+			"color": "yellow"
+		}
+	},
+	"colors": {
+		"001": "white",
+		"002": "black",
+		"003": "blue",
+		"004": "red",
+		"005": "yellow",
+		"006": "green",
+		"007": "orange",
+		"008": "purple",
+		"009": "teal",
+		"010": "maroon",
+		"011": "pink"
+	},
+	"food": {
+		"fruits": [
+			"apple",
+			"banana",
+			"cherry",
+			"dragonberry",
+			"elderberry",
+			"figs",
+			"grapes",
+			"honeydew",
+			"kiwi",
+			"lime",
+			"mango",
+			"nectarines"
+		],
+		"veggies": [
+			"cucumber",
+			"broccoli",
+			"carrot"
+		]
+	},
+	"favorites": {
+		"people": {
+			"real": {
+				"39cdf5a4-44e3-4ac8-ac0f-e2a7fa8e4dd8": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy"
+				},
+				"cc27e246-e1b1-4d05-97d1-342d71d7a550": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy"
+				},
+				"127e5093-c380-4233-8ebf-dfb827320527": {
+					"name": "Trevor",
+					"dob": "1984.02.01",
+					"color": "navy"
+				}
+			}
+		}
+	}
+}
