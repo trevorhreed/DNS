@@ -1,5 +1,5 @@
 {
-	"test": "[null]",
+	"test": "Hello fdsafdsafdsafasdfdsaWorld!",
 	"people": {
 		"001": {
 			"name": "Trevor",
@@ -22,6 +22,11 @@
 			"name": "Ked",
 			"dob": "1983.11.15",
 			"color": "yellow"
+		},
+		"0ecafe81-5dcb-4b63-90fa-1b73fa476ba1": {
+			"name": "John",
+			"age": 77,
+			"$key": "0ecafe81-5dcb-4b63-90fa-1b73fa476ba1"
 		}
 	},
 	"colors": {
@@ -75,6 +80,19 @@
 					"name": "Trevor",
 					"dob": "1984.02.01",
 					"color": "navy"
+				}
+			}
+		}
+	},
+	"path": {
+		"to": {
+			"more": {
+				"data": {
+					"2329845f-78c9-4f92-82f5-a77c4df3163a": {
+						"name": "John",
+						"age": 77,
+						"$key": "2329845f-78c9-4f92-82f5-a77c4df3163a"
+					}
 				}
 			}
 		}

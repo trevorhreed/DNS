@@ -16,8 +16,14 @@ namespace jdb
             routes.MapRoute(
                 name: "Default",
                 url: "",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index" }
             );
+
+			routes.MapRoute(
+				name: "People",
+				url: "people",
+				defaults: new { controller = "Home", action = "People" }
+			);
         }
     }
 }

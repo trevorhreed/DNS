@@ -1,0 +1,78 @@
+﻿{
+	"name": "John Hammerstein Gullop",
+	"dob": "2015.01.03",
+	"occupation": "Eater",
+	"company": "Consumers, Inc.",
+	"salary": 400000,
+	"bio": "This is the story all about how my life got twist'd, turned up-side-down, and I'd like to take a minute; just sit right there, and I'll tell you how I became the prince of a town called Bel Air.",
+	"foods": [
+		"cake",
+		"ice cream",
+		{
+			"fruit": [
+				"apples",
+				"bananas",
+				"cherries"
+			],
+			"veggies": [
+				"broccoli",
+				"carrots",
+				"peppers",
+				"cucumbers"
+			],
+			"meats": [
+				"chicken",
+				"pork",
+				"beef",
+				"fish"
+			]
+		}
+	],
+	"insight": [
+		{
+			"_id": "554e4fbf460086fcaa8588ea",
+			"index": 0,
+			"guid": "ca66ac0b-a9b0-4f2e-911b-02e6d23a57fe",
+			"isActive": true,
+			"balance": "$2,456.61",
+			"picture": "http://placehold.it/32x32",
+			"age": 28,
+			"eyeColor": "blue",
+			"name": "Charlene Lucas",
+			"gender": "female",
+			"company": "BIOLIVE",
+			"email": "charlenelucas@biolive.com",
+			"phone": "+1 (928) 452-2525",
+			"address": "835 Gold Street, Katonah, Northern Mariana Islands, 7145",
+			"about": "Ea Lorem Lorem minim et esse eu do dolor elit consequat eiusmod nulla ea officia. Id dolore laboris elit et proident. Ut id veniam minim ex cillum cupidatat officia elit velit irure. Pariatur nisi proident incididunt ut excepteur culpa non id cupidatat do. Officia minim est anim eu dolor nostrud et deserunt irure sunt quis.\r\n",
+			"registered": "2015-03-28T20:44:46 +06:00",
+			"latitude": -38.628537,
+			"longitude": 88.497171,
+			"tags": [
+				"cupidatat",
+				"duis",
+				"incididunt",
+				"cillum",
+				"labore",
+				"ex",
+				"laboris"
+			],
+			"friends": [
+				{
+					"id": 0,
+					"name": "Elizabeth Talley"
+				},
+				{
+					"id": 1,
+					"name": "Schmidt Ward"
+				},
+				{
+					"id": 2,
+					"name": "Joyner Beard"
+				}
+			],
+			"greeting": "Hello, Charlene Lucas! You have 3 unread messages.",
+			"favoriteFruit": "strawberry"
+		}
+	]
+}
