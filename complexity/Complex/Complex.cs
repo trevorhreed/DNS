@@ -1,9 +1,5 @@
 ﻿using ReducingComplexity.Shared;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReducingComplexity.Complex
 {
@@ -11,7 +7,7 @@ namespace ReducingComplexity.Complex
 	 * 
 	 * Factor out duplicate code into separate methods (#001)
 	 * Factor out non-domain logic into separate modules (#002)
-	 * Factor out descrete domain logic into separate methods/modules (#003)
+	 * Factor out discrete domain logic into separate methods/modules (#003)
 	 * Refactor methods using the following rules:
 	 *		- Validate input, return or throw error on failure (#004)
 	 *		- Validate domain data, return or throw error on failure (#005)
@@ -26,87 +22,17 @@ namespace ReducingComplexity.Complex
 	 *		- Separate levels of abstraction (#014)
 	 */
 
-	public class ComplexTicTacToeController : IController
+	public class ComplexController : IController
 	{
 		private static int BOARD_Y_OFFSET = 3;
 		private static int BOARD_X_OFFSET = 6;
 		private static int MESSAGE_Y_OFFSET = BOARD_Y_OFFSET + 14;
 		private static int MESSAGE_X_OFFSET = BOARD_X_OFFSET + 1;
 
-		private IComputerAI _ai;
 		private Piece _turn;
 		private Piece[,] _squares;
 		private Piece[,] Squares { get { return (Piece[,])this._squares.Clone(); } }
 		private Point _cursor = new Point(1, 1);
-
-		private bool _gameOver
-		{
-			get { return _winner != Piece.None || _noEmptySquares; }
-		}
-		private bool _noEmptySquares
-		{
-			get
-			{
-				bool noEmptySquares = true;
-				foreach (Piece square in _squares)
-				{
-					if (square == Piece.None)
-					{
-						noEmptySquares = false;
-						break;
-					}
-				}
-				return noEmptySquares;
-			}
-		}
-		private Piece _winner
-		{
-			get
-			{
-				for (var i = 0; i < 8; i++)
-				{
-					if (
-							_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player1 &&
-							_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player1 &&
-							_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player1
-					)
-					{
-						return Piece.Player1;
-					}
-					if (
-							_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player2 &&
-							_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player2 &&
-							_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player2
-					)
-					{
-						return Piece.Player2;
-					}
-				}
-				return _noEmptySquares ? Piece.Cat : Piece.None;
-			}
-		}
-
-		private string _gameScreen =
-			new string('\n', BOARD_Y_OFFSET) +
-			new string(' ', BOARD_X_OFFSET) +
-			string.Join(
-				"\n" + new string(' ', BOARD_X_OFFSET),
-				new string[] {
-					"┌─────────┬─────────┬─────────┐ ",
-					"│         │         │         │ Instructions",
-					"│    X    │    X    │    X    │ -----------------------------",
-					"│         │         │         │ Escape to exit",
-					"├─────────┼─────────┼─────────┤ F3 to reset the game",
-					"│         │         │         │ Arrow keys to move the curosr",
-					"│    X    │    X    │    X    │ Enter to place your piece",
-					"│         │         │         │ ",
-					"├─────────┼─────────┼─────────┤ ",
-					"│         │         │         │ ",
-					"│    X    │    X    │    X    │ ",
-					"│         │         │         │ ",
-					"└─────────┴─────────┴─────────┘ "
-				}
-			);
 
 		private Point[,] _piecePoints = new Point[,] {
 			{ 
@@ -126,13 +52,10 @@ namespace ReducingComplexity.Complex
 			},
 		};
 
-
-
-		public void Run(IComputerAI computerAI)
+		public void Run(IComputerAI ai)
 		{
-			_ai = computerAI;
 			Console.CursorVisible = false;
-			{ // #001, #003
+			{ // #001, #003:																																																																																																																										_resetGame()
 				this._turn = Piece.Player1;
 				this._squares = new Piece[3, 3] {
 					{ Piece.None, Piece.None, Piece.None },
@@ -142,12 +65,12 @@ namespace ReducingComplexity.Complex
 
 				Console.Clear();
 
-				{ // #003 _printBoard()
+				{ // #003:																																																																																																																										 _printBoard()
 					Console.SetCursorPosition(0, 0);
 					Console.WriteLine(this._gameScreen);
 				}
 
-				for (int y = 0; y < 3; y++) // #001 _printPieces()
+				for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
 				{
 					for (int x = 0; x < 3; x++)
 					{
@@ -157,7 +80,7 @@ namespace ReducingComplexity.Complex
 					}
 				}
 
-				{ // #001 _printCursor()
+				{ // #001:																																																																																																																										 _printCursor()
 					Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
 					Console.SetCursorPosition(cursorPoint.x - 2, cursorPoint.y);
 					Console.Write("(");
@@ -165,7 +88,7 @@ namespace ReducingComplexity.Complex
 					Console.Write(")");
 				}
 
-				{ // #001, #002: _printMessage()
+				{ // #001, #002:																																																																																																																										 _printMessage()
 					int WIDTH = Console.WindowWidth - MESSAGE_X_OFFSET;
 					Console.SetCursorPosition(MESSAGE_X_OFFSET, MESSAGE_Y_OFFSET);
 					string formattedMessage = "Ready.";
@@ -183,8 +106,8 @@ namespace ReducingComplexity.Complex
 				switch (keyInfo.Key)
 				{
 					case ConsoleKey.UpArrow:
-						{ // #014: _moveCursor(0, -1)
-							{ // #001 _clearCursor()
+						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+							{ // #001:																																																																																																																										 _clearCursor()
 								Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
 								Console.SetCursorPosition(cursorPoint.x - 2, cursorPoint.y);
 								Console.Write(" ");
@@ -193,7 +116,7 @@ namespace ReducingComplexity.Complex
 							}
 							this._cursor.y--;
 							if (this._cursor.y < 0) this._cursor.y = 2;
-							{ // #001 _printCursor()
+							{ // #001:																																																																																																																										 _printCursor()
 								foreach (Point p in _piecePoints)
 								{
 									Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
@@ -207,8 +130,8 @@ namespace ReducingComplexity.Complex
 						}
 						break;
 					case ConsoleKey.DownArrow:
-						{ // #014: _moveCursor(0, -1)
-							{ // #001 _clearCursor()
+						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+							{ // #001:																																																																																																																										 _clearCursor()
 								Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
 								Console.SetCursorPosition(cursorPoint.x - 2, cursorPoint.y);
 								Console.Write(" ");
@@ -217,7 +140,7 @@ namespace ReducingComplexity.Complex
 							}
 							this._cursor.y++;
 							if (this._cursor.y > 2) this._cursor.y = 0;
-							{ // #001 _printCursor()
+							{ // #001:																																																																																																																										 _printCursor()
 								foreach (Point p in _piecePoints)
 								{
 									Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
@@ -231,8 +154,8 @@ namespace ReducingComplexity.Complex
 						}
 						break;
 					case ConsoleKey.LeftArrow:
-						{ // #014: _moveCursor(0, -1)
-							{ // #001 _clearCursor()
+						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+							{ // #001:																																																																																																																										 _clearCursor()
 								Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
 								Console.SetCursorPosition(cursorPoint.x - 2, cursorPoint.y);
 								Console.Write(" ");
@@ -241,7 +164,7 @@ namespace ReducingComplexity.Complex
 							}
 							this._cursor.x--;
 							if (this._cursor.x < 0) this._cursor.x = 2;
-							{ // #001 _printCursor()
+							{ // #001:																																																																																																																										 _printCursor()
 								foreach (Point p in _piecePoints)
 								{
 									Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
@@ -255,8 +178,8 @@ namespace ReducingComplexity.Complex
 						}
 						break;
 					case ConsoleKey.RightArrow:
-						{ // #014: _moveCursor(0, -1)
-							{ // #001 _clearCursor()
+						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+							{ // #001:																																																																																																																										 _clearCursor()
 								Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
 								Console.SetCursorPosition(cursorPoint.x - 2, cursorPoint.y);
 								Console.Write(" ");
@@ -265,7 +188,7 @@ namespace ReducingComplexity.Complex
 							}
 							this._cursor.x++;
 							if (this._cursor.x > 2) this._cursor.x = 0;
-							{ // #001 _printCursor()
+							{ // #001:																																																																																																																										 _printCursor()
 								Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
 								Console.SetCursorPosition(cursorPoint.x - 2, cursorPoint.y);
 								Console.Write("(");
@@ -277,8 +200,41 @@ namespace ReducingComplexity.Complex
 					case ConsoleKey.Enter:
 						try
 						{
-							{ // #001, #003: _takeTurn()
-								if (!_gameOver) // #004, #005, #013: _validate()
+							{ // #001, #003:																																																																																																																										 _takeTurn()
+
+								bool noEmptySquares = true; // #001, #003:																																																																																																																									_noEmptySquares (bool proeprty)
+								foreach (Piece square in _squares)
+								{
+									if (square == Piece.None)
+									{
+										noEmptySquares = false;
+										break;
+									}
+								}
+
+								Piece winner = Piece.None; // #001, #003:																																																																																																																									_winner (Piece property)
+								for (var i = 0; i < 8; i++)
+								{
+									if (
+											_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player1 &&
+											_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player1 &&
+											_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player1
+									)
+									{
+										winner = Piece.Player1;
+									}
+									if (
+											_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player2 &&
+											_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player2 &&
+											_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player2
+									)
+									{
+										winner = Piece.Player2;
+									}
+								}
+								winner = noEmptySquares ? Piece.Cat : Piece.None;
+
+								if (!(winner != Piece.None || noEmptySquares)) // #001, #003, #004, #005, #013:																																																																																																																	_gameOver (bool property), _validate()
 								{
 									if (_cursor.y >= 0 && _cursor.y <= 2 && _cursor.x >= 0 && _cursor.x <= 2)
 									{
@@ -287,7 +243,7 @@ namespace ReducingComplexity.Complex
 											this._squares[_cursor.y, _cursor.x] = _turn;
 											_turn = _turn == Piece.Player1 ? Piece.Player2 : Piece.Player1;
 
-											for (int y = 0; y < 3; y++) // #001: _printPieces()
+											for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
 											{
 												for (int x = 0; x < 3; x++)
 												{
@@ -297,19 +253,54 @@ namespace ReducingComplexity.Complex
 												}
 											}
 
-											if (_gameOver)
+											noEmptySquares = true;	// #001, #003:																																																																																																																										_noEmptySquares (bool proeprty)
+											foreach (Piece square in _squares)
+											{
+												if (square == Piece.None)
+												{
+													noEmptySquares = false;
+													break;
+												}
+											}
+
+											winner = Piece.None; // #001, #003:																																																																																																																									_winner (Piece property)
+											for (var i = 0; i < 8; i++)
+											{
+												if (
+														_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player1 &&
+														_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player1 &&
+														_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player1
+												)
+												{
+													winner = Piece.Player1;
+												}
+												if (
+														_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player2 &&
+														_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player2 &&
+														_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player2
+												)
+												{
+													winner = Piece.Player2;
+												}
+											}
+											if (winner == Piece.None)
+											{
+												winner = noEmptySquares ? Piece.Cat : Piece.None;
+											}
+
+											if (winner != Piece.None || noEmptySquares) // #001, #003:																																																																																																															_gameOver (bool property)
 											{
 												string message = "";
-												if (_winner == Piece.Cat)
+												if (winner == Piece.Cat)
 												{
 													message = "Cat's game!";
 												}
 												else
 												{
-													message = _winner.GetLabel() + " is the winner!";
+													message = winner.GetLabel() + " is the winner!";
 												}
 
-												{ // #001, #002: _printMessage()
+												{ // #001, #002:																																																																																																																										 _printMessage()
 													int WIDTH = Console.WindowWidth - MESSAGE_X_OFFSET;
 													Console.SetCursorPosition(MESSAGE_X_OFFSET, MESSAGE_Y_OFFSET);
 													string formattedMessage = message;
@@ -320,10 +311,11 @@ namespace ReducingComplexity.Complex
 											}
 											else
 											{
-												{ // #001, #003: _takeTurn()
-													if (!_gameOver) // #004, #005, #013: _validate()
+												{ // #001, #003:																																																																																																																										 _takeTurn()
+
+													if (!(winner != Piece.None || noEmptySquares)) // #001, #003, #004, #005, #013:																																																																																																																			_gameOver (bool property), _validate(), 
 													{
-														Point aiMove = _ai.GetMove(Squares, Piece.Player2);
+														Point aiMove = ai.GetMove(Squares, Piece.Player2);
 														if (aiMove.y >= 0 && aiMove.y <= 2 && aiMove.x >= 0 && aiMove.x <= 2)
 														{
 															if (_squares[aiMove.y, aiMove.x] == Piece.None)
@@ -331,7 +323,7 @@ namespace ReducingComplexity.Complex
 																this._squares[aiMove.y, aiMove.x] = _turn;
 																_turn = _turn == Piece.Player1 ? Piece.Player2 : Piece.Player1;
 
-																for (int y = 0; y < 3; y++) // #001: _printPieces()
+																for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
 																{
 																	for (int x = 0; x < 3; x++)
 																	{
@@ -341,11 +333,46 @@ namespace ReducingComplexity.Complex
 																	}
 																}
 
-																if (_gameOver)
+																noEmptySquares = true; // #001, #003:																																																																																																																												_noEmptySquares (bool proeprty)
+																foreach (Piece square in _squares)
 																{
-																	if (_winner == Piece.Cat)
+																	if (square == Piece.None)
 																	{
-																		{ // #001, #002: _printMessage()
+																		noEmptySquares = false;
+																		break;
+																	}
+																}
+
+																winner = Piece.None; // #001, #003:																																																																																																																									_winner (Piece property)
+																for (var i = 0; i < 8; i++)
+																{
+																	if (
+																			_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player1 &&
+																			_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player1 &&
+																			_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player1
+																	)
+																	{
+																		winner = Piece.Player1;
+																	}
+																	if (
+																			_squares[Constants.Lines[i][0].y, Constants.Lines[i][0].x] == Piece.Player2 &&
+																			_squares[Constants.Lines[i][1].y, Constants.Lines[i][1].x] == Piece.Player2 &&
+																			_squares[Constants.Lines[i][2].y, Constants.Lines[i][2].x] == Piece.Player2
+																	)
+																	{
+																		winner = Piece.Player2;
+																	}
+																}
+																if (winner == Piece.None)
+																{
+																	winner = noEmptySquares ? Piece.Cat : Piece.None;
+																}
+
+																if (winner != Piece.None || noEmptySquares) // #001, #003:																																																																																																																					_gameOver (bool property)
+																{
+																	if (winner == Piece.Cat)
+																	{
+																		{ // #001, #002:																																																																																																																										 _printMessage()
 																			int WIDTH = Console.WindowWidth - MESSAGE_X_OFFSET;
 																			Console.SetCursorPosition(MESSAGE_X_OFFSET, MESSAGE_Y_OFFSET);
 																			string formattedMessage = "Cat's game!";
@@ -356,10 +383,10 @@ namespace ReducingComplexity.Complex
 																	}
 																	else
 																	{
-																		{ // #001, #002: _printMessage()
+																		{ // #001, #002:																																																																																																																										 _printMessage()
 																			int WIDTH = Console.WindowWidth - MESSAGE_X_OFFSET;
 																			Console.SetCursorPosition(MESSAGE_X_OFFSET, MESSAGE_Y_OFFSET);
-																			string formattedMessage = _winner.GetLabel() + " is the winner!";
+																			string formattedMessage = winner.GetLabel() + " is the winner!";
 																			if (formattedMessage.Length > WIDTH) formattedMessage = formattedMessage.Substring(0, WIDTH);
 																			else if (formattedMessage.Length < WIDTH) formattedMessage = formattedMessage + new string(' ', WIDTH - formattedMessage.Length);
 																			Console.Write(formattedMessage);
@@ -402,7 +429,7 @@ namespace ReducingComplexity.Complex
 						}
 						catch (Exception e)
 						{
-							{ // #001, #002
+							{ // #001, #002:																																																																																																																										_printMessage()
 								int WIDTH = Console.WindowWidth - MESSAGE_X_OFFSET;
 								Console.SetCursorPosition(MESSAGE_X_OFFSET, MESSAGE_Y_OFFSET);
 								string formattedMessage = e.Message;
@@ -413,7 +440,7 @@ namespace ReducingComplexity.Complex
 						}
 						break;
 					case ConsoleKey.F3:
-						{ // #001, #003
+						{ // #001, #003:																																																																																																																										_resetGame()
 							this._turn = Piece.Player1;
 							this._squares = new Piece[3, 3] {
 								{ Piece.None, Piece.None, Piece.None },
@@ -423,12 +450,12 @@ namespace ReducingComplexity.Complex
 
 							Console.Clear();
 
-							{ // #003 _printBoard()
+							{ // #003:																																																																																																																										 _printBoard()
 								Console.SetCursorPosition(0, 0);
 								Console.WriteLine(this._gameScreen);
 							}
 
-							for (int y = 0; y < 3; y++) // #001 _printPieces()
+							for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
 							{
 								for (int x = 0; x < 3; x++)
 								{
@@ -438,7 +465,7 @@ namespace ReducingComplexity.Complex
 								}
 							}
 
-							{ // #001 _printCursor()
+							{ // #001:																																																																																																																										 _printCursor()
 								Point cursorPoint = _piecePoints[this._cursor.y, this._cursor.x];
 								Console.SetCursorPosition(cursorPoint.x - 2, cursorPoint.y);
 								Console.Write("(");
@@ -446,7 +473,7 @@ namespace ReducingComplexity.Complex
 								Console.Write(")");
 							}
 
-							{ // #001, #002
+							{ // #001, #002:																																																																																																																										_printMessage()
 								int WIDTH = Console.WindowWidth - MESSAGE_X_OFFSET;
 								Console.SetCursorPosition(MESSAGE_X_OFFSET, MESSAGE_Y_OFFSET);
 								string formattedMessage = "Ready.";
@@ -464,5 +491,85 @@ namespace ReducingComplexity.Complex
 				}
 			} while (continueRunning);
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		private string _gameScreen =
+			new string('\n', BOARD_Y_OFFSET) +
+			new string(' ', BOARD_X_OFFSET) +
+			string.Join(
+				"\n" + new string(' ', BOARD_X_OFFSET),
+				new string[] {
+					"┌─────────┬─────────┬─────────┐ ",
+					"│         │         │         │ Complex Tic Tac Toe Code",
+					"│    X    │    X    │    X    │ ",
+					"│         │         │         │ Instructions",
+					"├─────────┼─────────┼─────────┤ -----------------------------",
+					"│         │         │         │ Escape to exit",
+					"│    X    │    X    │    X    │ F3 to reset the game",
+					"│         │         │         │ Arrow keys to move the curosr",
+					"├─────────┼─────────┼─────────┤ Enter to place your piece",
+					"│         │         │         │ ",
+					"│    X    │    X    │    X    │ ",
+					"│         │         │         │ ",
+					"└─────────┴─────────┴─────────┘ "
+				}
+			);
 	}
 }

@@ -7,7 +7,7 @@ namespace ReducingComplexity
 		static void Main(string[] args)
 		{
 			//new Simple.SimpleTicTacToeController().Run(new InvincibleAI());
-			new Complex.ComplexTicTacToeController().Run(new InvincibleAI());
+			new Complex.ComplexController().Run(new InvincibleAI());
 		}
 	}
 }

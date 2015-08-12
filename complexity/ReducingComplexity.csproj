@@ -46,8 +46,8 @@
     <Compile Include="Shared\IController.cs" />
     <Compile Include="Shared\InvincibleAI.cs" />
     <Compile Include="Shared\Utilities.cs" />
-    <Compile Include="simple\Interfaces.cs" />
-    <Compile Include="simple\Simple.cs" />
+    <Compile Include="Simple\Interfaces.cs" />
+    <Compile Include="Simple\Simple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
