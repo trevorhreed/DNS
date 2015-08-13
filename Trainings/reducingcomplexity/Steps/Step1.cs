@@ -1,7 +1,7 @@
 ﻿using ReducingComplexity.Shared;
 using System;
 
-namespace ReducingComplexity.Reducing
+namespace ReducingComplexity.Steps
 {
 	// Factor out duplicate code into separete methods
 

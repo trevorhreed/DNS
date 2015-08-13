@@ -41,28 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Complex\Complex.cs" />
-    <Compile Include="Reducing\Step6.cs" />
-    <Compile Include="Reducing\Step5.cs" />
-    <Compile Include="Reducing\Step4.cs" />
-    <Compile Include="Reducing\Step3.cs" />
-    <Compile Include="Reducing\Step2.cs" />
-    <Compile Include="Reducing\Step1.cs" />
-    <Compile Include="Reducing\StartController.cs" />
+    <Compile Include="Steps\Step6.cs" />
+    <Compile Include="Steps\Step5.cs" />
+    <Compile Include="Steps\Step4.cs" />
+    <Compile Include="Steps\Step3.cs" />
+    <Compile Include="Steps\Step2.cs" />
+    <Compile Include="Steps\Step1.cs" />
+    <Compile Include="Steps\Step0.cs" />
     <Compile Include="Shared\IComputerAI.cs" />
     <Compile Include="Shared\IController.cs" />
     <Compile Include="Shared\InvincibleAI.cs" />
     <Compile Include="Shared\Utilities.cs" />
-    <Compile Include="Simple\Interfaces.cs" />
-    <Compile Include="Simple\Simple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Complex\Checklist.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

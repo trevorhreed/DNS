@@ -1,16 +1,16 @@
 ﻿using ReducingComplexity.Shared;
 using System;
 
-namespace ReducingComplexity.Reducing
+namespace ReducingComplexity.Steps
 {
-	// Variables & Methods
+	// Execution Sequence
 
-	public class Step5Controller : IController
+	public class Step4Controller : IController
 	{
 		private IComputerAI _ai;
-		private IStep5View _view;
-		private IStep5Game _game;
-
+		private IStep4View _view;
+		private IStep4Game _game;
+		
 		public void Run(IComputerAI ai)
 		{
 			setup(ai);
@@ -24,8 +24,8 @@ namespace ReducingComplexity.Reducing
 		private void setup(IComputerAI ai)
 		{
 			_ai = ai;
-			_game = new Step5Game();
-			_view = new Step5View(_game);
+			_game = new Step4Game();
+			_view = new Step4View(_game);
 			_game.Reset();
 			_view.Reset();
 		}
@@ -64,7 +64,7 @@ namespace ReducingComplexity.Reducing
 			{
 				_game.TakeTurn(_view.Cursor);
 				_view.UpdateBoard();
-				if (!_game.IsOver)
+				if (!(_game.Winner != Piece.None || _game.NoEmptySquares))
 				{
 					_game.TakeTurn(_ai.GetMove(_game.Squares, Piece.Player2));
 					_view.UpdateBoard();
@@ -77,7 +77,7 @@ namespace ReducingComplexity.Reducing
 		}
 	}
 
-	public class Step5Game : IStep5Game
+	public class Step4Game : IStep4Game
 	{
 		private Piece _turn;
 		private Piece[,] _squares;
@@ -109,7 +109,6 @@ namespace ReducingComplexity.Reducing
 				return !foundEmptySquare;
 			}
 		}
-		public bool IsOver { get { return Winner != Piece.None || NoEmptySquares; } }
 
 		public void Reset()
 		{
@@ -125,16 +124,12 @@ namespace ReducingComplexity.Reducing
 			validateMove(point);
 
 			this._squares[point.y, point.x] = _turn;
-			switchTurns();
-		}
-		private void switchTurns()
-		{
 			_turn = _turn == Piece.Player1 ? Piece.Player2 : Piece.Player1;
 		}
 		private void validateMove(Point point)
 		{
-			if (IsOver) throw new Exception("The game is over! Press F3 to reset the game.");
-			if (_squares[point.y, point.x] == Piece.None) throw new Exception("That space is already taken. Try an empty space.");
+			if (Winner != Piece.None || NoEmptySquares) throw new Exception("The game is over! Press F3 to reset the game.");
+			if (_squares[point.y, point.x] != Piece.None) throw new Exception("That space is already taken. Try an empty space.");
 			if (!isPointOnBoard(point)) throw new Exception("Something went horribly wrong.");
 		}
 		private bool isWinningLineForPlayer(Point[] line, Piece player)
@@ -150,30 +145,19 @@ namespace ReducingComplexity.Reducing
 		}
 	}
 
-	public class Step5View : IStep5View
+	public class Step4View : IStep4View
 	{
-		private static int BOARD_OFFSET_X = 6;
-		private static int BOARD_OFFSET_Y = 3;
-		private static int PIECE_OFFSET_X = 11;
-		private static int PIECE_OFFSET_Y = 5;
-		private static int PIECE_SPACING_X = 10;
-		private static int PIECE_SPACING_Y = 4;
-		private static int MESSAGE_OFFSET_X = BOARD_OFFSET_X + 1;
-		private static int MESSAGE_OFFSET_Y = BOARD_OFFSET_Y + 14;
-
-		private IStep5Game _game;
+		private IStep4Game _game;
 		private Point _cursor = new Point(1, 1);
 		public Point Cursor { get { return _cursor; } }
 		public String Message
 		{
 			set
 			{
-				int MAX_MESSAGE_LENGTH = Console.WindowWidth - MESSAGE_OFFSET_X;
-				string message = value.Length > MAX_MESSAGE_LENGTH
-					? value.Substring(0, MAX_MESSAGE_LENGTH)
-					: value.PadRight(MAX_MESSAGE_LENGTH, ' ');
-
-				Console.SetCursorPosition(MESSAGE_OFFSET_X, MESSAGE_OFFSET_Y);
+				string message = value;
+				if (message.Length > Console.WindowWidth - 7) message = message.Substring(0, Console.WindowWidth - 7);
+				else if (message.Length < Console.WindowWidth - 7) message = message + new string(' ', (Console.WindowWidth - 7) - message.Length);
+				Console.SetCursorPosition(7, 17);
 				Console.Write(message);
 			}
 		}
@@ -201,7 +185,7 @@ namespace ReducingComplexity.Reducing
 			);
 		#endregion
 
-		public Step5View(IStep5Game game)
+		public Step4View(IStep4Game game)
 		{
 			this._game = game;
 			Console.CursorVisible = false;
@@ -231,7 +215,7 @@ namespace ReducingComplexity.Reducing
 		public void UpdateBoard()
 		{
 			printPieces();
-			if (_game.IsOver)
+			if (_game.Winner != Piece.None || _game.NoEmptySquares)
 			{
 				Message = _game.Winner == Piece.Cat
 					? "Cat's game!"
@@ -245,29 +229,21 @@ namespace ReducingComplexity.Reducing
 			{
 				for (int x = 0; x < 3; x++)
 				{
-					Point boardPoint = getBoardPointFromGamePoint(x, y);
-					Console.SetCursorPosition(boardPoint.x, boardPoint.y);
+					int y2 = (y * 4) + 5;
+					int x2 = (x * 10) + 11;
+					Console.SetCursorPosition(x2, y2);
 					Console.Write(_game.Squares[y, x].GetLabel());
 				}
 			}
-		}
-
-		private Point getBoardPointFromGamePoint(int x, int y)
-		{
-			return new Point(
-				(y * PIECE_SPACING_Y) + PIECE_OFFSET_Y,
-				(x * PIECE_SPACING_X) + PIECE_OFFSET_X
-			);
 		}
 
 		private void printCursor(bool show = true)
 		{
 			char opening = show ? '(' : ' ';
 			char closing = show ? ')' : ' ';
-			Point boardPoint = getBoardPointFromGamePoint(_cursor.x, _cursor.y);
-			Console.SetCursorPosition(boardPoint.x - 2, boardPoint.y);
+			Console.SetCursorPosition((_cursor.x * 10) + 9, (_cursor.y * 4) + 5);
 			Console.Write(opening);
-			Console.SetCursorPosition(boardPoint.x + 2, boardPoint.y);
+			Console.SetCursorPosition((_cursor.x * 10) + 13, (_cursor.y * 4) + 5);
 			Console.Write(closing);
 		}
 
@@ -276,22 +252,21 @@ namespace ReducingComplexity.Reducing
 			Console.Clear();
 			Console.SetCursorPosition(0, 0);
 			Console.WriteLine(this._gameScreen);
-		}
+		}		
 	}
 
-	public interface IStep5Game
+	public interface IStep4Game
 	{
 		bool NoEmptySquares { get; }
-		bool IsOver { get; }
 		void Reset();
-		Piece[,] Squares { get; }
-		void TakeTurn(Point point);
-		Piece Winner { get; }
+		global::ReducingComplexity.Shared.Piece[,] Squares { get; }
+		void TakeTurn(global::ReducingComplexity.Shared.Point point);
+		global::ReducingComplexity.Shared.Piece Winner { get; }
 	}
 
-	public interface IStep5View
+	public interface IStep4View
 	{
-		Point Cursor { get; }
+		ReducingComplexity.Shared.Point Cursor { get; }
 		string Message { set; }
 		void MoveCursor(int x, int y);
 		void Reset();

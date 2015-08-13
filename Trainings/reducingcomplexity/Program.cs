@@ -8,11 +8,7 @@ namespace ReducingComplexity
 		static void Main(string[] args)
 		{
 			IComputerAI ai = new Shared.InvincibleAI();
-
-			//new Simple.SimpleController().Run(ai);
-			//new Complex.ComplexController().Run(ai);
-
-			new Reducing.Step3Controller().Run(ai);
+			new Steps.Step0Controller().Run(ai);
 		}
 	}
 }

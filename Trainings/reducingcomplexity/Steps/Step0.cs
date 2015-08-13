@@ -1,9 +1,9 @@
 ﻿using ReducingComplexity.Shared;
 using System;
 
-namespace ReducingComplexity.Reducing
+namespace ReducingComplexity.Steps
 {
-	public class StartController : IController
+	public class Step0Controller : IController
 	{
 		private Piece _turn;
 		private Piece[,] _squares;
