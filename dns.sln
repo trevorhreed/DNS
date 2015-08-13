@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc", "mvc\mvc.csproj", "{1F4099F6-2041-4D8A-B17A-6EAD9A1D82B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "Misc\console\console.csproj", "{33BE6BB1-3528-422A-A8E4-D60E2EC23111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "console\console.csproj", "{33BE6BB1-3528-422A-A8E4-D60E2EC23111}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form", "Misc\form\form.csproj", "{D8D85730-EEA6-4BF1-A275-788C3C290DA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form", "form\form.csproj", "{D8D85730-EEA6-4BF1-A275-788C3C290DA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Misc\Example\Example.csproj", "{218F1A66-7F5F-45D1-97DD-738B6AA51994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angular", "angular\angular.csproj", "{C7058786-4926-4C52-AE53-AFB04334E1EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsonQuery", "Misc\jsonQuery\jsonQuery.csproj", "{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{218F1A66-7F5F-45D1-97DD-738B6AA51994}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jdb", "Misc\jdb\jdb.csproj", "{05A31F8B-57D4-4312-8DD8-4C6B045948F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsonQuery", "jsonQuery\jsonQuery.csproj", "{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReducingComplexity", "Trainings\reducingcomplexity\ReducingComplexity.csproj", "{E91094EC-44F5-4DE4-88D7-ACF9B6981E7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jdb", "jdb\jdb.csproj", "{05A31F8B-57D4-4312-8DD8-4C6B045948F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trainings", "Trainings", "{4D4EC278-8A89-4826-80B9-6029A8C98D3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReducingComplexity", "complexity\ReducingComplexity.csproj", "{E91094EC-44F5-4DE4-88D7-ACF9B6981E7E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{081EB716-DDA9-4826-97CE-1D770A1BA576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,12 +26,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F4099F6-2041-4D8A-B17A-6EAD9A1D82B2}.All|Any CPU.ActiveCfg = All|Any CPU
-		{1F4099F6-2041-4D8A-B17A-6EAD9A1D82B2}.All|Any CPU.Build.0 = All|Any CPU
-		{1F4099F6-2041-4D8A-B17A-6EAD9A1D82B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F4099F6-2041-4D8A-B17A-6EAD9A1D82B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F4099F6-2041-4D8A-B17A-6EAD9A1D82B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F4099F6-2041-4D8A-B17A-6EAD9A1D82B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33BE6BB1-3528-422A-A8E4-D60E2EC23111}.All|Any CPU.ActiveCfg = All|Any CPU
 		{33BE6BB1-3528-422A-A8E4-D60E2EC23111}.All|Any CPU.Build.0 = All|Any CPU
 		{33BE6BB1-3528-422A-A8E4-D60E2EC23111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,12 +38,6 @@ Global
 		{D8D85730-EEA6-4BF1-A275-788C3C290DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8D85730-EEA6-4BF1-A275-788C3C290DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8D85730-EEA6-4BF1-A275-788C3C290DA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7058786-4926-4C52-AE53-AFB04334E1EE}.All|Any CPU.ActiveCfg = Release|Any CPU
-		{C7058786-4926-4C52-AE53-AFB04334E1EE}.All|Any CPU.Build.0 = Release|Any CPU
-		{C7058786-4926-4C52-AE53-AFB04334E1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7058786-4926-4C52-AE53-AFB04334E1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7058786-4926-4C52-AE53-AFB04334E1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7058786-4926-4C52-AE53-AFB04334E1EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{218F1A66-7F5F-45D1-97DD-738B6AA51994}.All|Any CPU.ActiveCfg = Release|Any CPU
 		{218F1A66-7F5F-45D1-97DD-738B6AA51994}.All|Any CPU.Build.0 = Release|Any CPU
 		{218F1A66-7F5F-45D1-97DD-738B6AA51994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -77,5 +65,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33BE6BB1-3528-422A-A8E4-D60E2EC23111} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
+		{D8D85730-EEA6-4BF1-A275-788C3C290DA3} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
+		{218F1A66-7F5F-45D1-97DD-738B6AA51994} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
+		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
+		{05A31F8B-57D4-4312-8DD8-4C6B045948F1} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
+		{E91094EC-44F5-4DE4-88D7-ACF9B6981E7E} = {4D4EC278-8A89-4826-80B9-6029A8C98D3E}
 	EndGlobalSection
 EndGlobal
