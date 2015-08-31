@@ -6,7 +6,7 @@ namespace ReducingComplexity.Shared
 		Player1,
 		Player2,
 		Cat,
-		None
+		Empty
 	}
 
 	public static class PieceExtensions

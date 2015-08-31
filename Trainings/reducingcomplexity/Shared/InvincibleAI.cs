@@ -37,7 +37,7 @@ namespace ReducingComplexity.Shared
 				{
 					bestMove = new ScoredMove() { Score = nextMove.Score, Square = move };
 				}
-				squares[move.y, move.x] = Piece.None;
+				squares[move.y, move.x] = Piece.Empty;
 			}
 			return bestMove;
 		}
@@ -54,7 +54,7 @@ namespace ReducingComplexity.Shared
 			{
 				for (int col = 0; col < 3; col++)
 				{
-					if (squares[row, col] == Piece.None)
+					if (squares[row, col] == Piece.Empty)
 					{
 						legalMoves.Add(new Point() { y = row, x = col });
 					}
@@ -113,7 +113,7 @@ namespace ReducingComplexity.Shared
 			bool existsEmptySquare = false;
 			foreach (Piece square in squares)
 			{
-				if (square == Piece.None)
+				if (square == Piece.Empty)
 				{
 					existsEmptySquare = true;
 					break;

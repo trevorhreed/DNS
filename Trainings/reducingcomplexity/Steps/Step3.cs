@@ -64,7 +64,7 @@ namespace ReducingComplexity.Steps
 			{
 				_game.TakeTurn(_view.Cursor);
 				_view.UpdateBoard();
-				if (!(_game.Winner != Piece.None || _game.NoEmptySquares)) // #001, #003:																																																																																																															_gameOver (bool property)
+				if (!(_game.Winner != Piece.Empty || _game.NoEmptySquares)) // #001, #003:																																																																																																															_gameOver (bool property)
 				{
 					_game.TakeTurn(_ai.GetMove(_game.Squares, Piece.Player2));
 					_view.UpdateBoard();
@@ -91,7 +91,7 @@ namespace ReducingComplexity.Steps
 					if (isWinningLineForPlayer(line, Piece.Player1)) return Piece.Player1;
 					if (isWinningLineForPlayer(line, Piece.Player2)) return Piece.Player2;
 				}
-				return NoEmptySquares ? Piece.Cat : Piece.None;
+				return NoEmptySquares ? Piece.Cat : Piece.Empty;
 			}
 		}
 		public bool NoEmptySquares
@@ -101,7 +101,7 @@ namespace ReducingComplexity.Steps
 				bool foundEmptySquare = false;
 				foreach (Piece square in _squares)
 				{
-					if (square == Piece.None)
+					if (square == Piece.Empty)
 					{
 						foundEmptySquare = true;
 					}
@@ -114,18 +114,18 @@ namespace ReducingComplexity.Steps
 		{
 			this._turn = Piece.Player1;
 			this._squares = new Piece[3, 3] {
-				{ Piece.None, Piece.None, Piece.None },
-				{ Piece.None, Piece.None, Piece.None },
-				{ Piece.None, Piece.None, Piece.None }
+				{ Piece.Empty, Piece.Empty, Piece.Empty },
+				{ Piece.Empty, Piece.Empty, Piece.Empty },
+				{ Piece.Empty, Piece.Empty, Piece.Empty }
 			};
 		}
 		public void TakeTurn(Point point)
 		{
-			if (!(Winner != Piece.None || NoEmptySquares)) // #001, #003, #004, #005, #013:																																																																																																																	_gameOver (bool property), _validate()
+			if (!(Winner != Piece.Empty || NoEmptySquares)) // #001, #003, #004, #005, #013:																																																																																																																	_gameOver (bool property), _validate()
 			{
-				if (isPointOnBoard(point))
+				if (isValidPoint(point))
 				{
-					if (_squares[point.y, point.x] == Piece.None)
+					if (_squares[point.y, point.x] == Piece.Empty)
 					{
 						this._squares[point.y, point.x] = _turn;
 						_turn = _turn == Piece.Player1 ? Piece.Player2 : Piece.Player1;
@@ -152,7 +152,7 @@ namespace ReducingComplexity.Steps
 				_squares[line[1].y, line[1].x] == player &&
 				_squares[line[2].y, line[2].x] == player;
 		}
-		private bool isPointOnBoard(Point point)
+		private bool isValidPoint(Point point)
 		{
 			return point.y >= 0 && point.y <= 2 && point.x >= 0 && point.x <= 2;
 		}
@@ -228,7 +228,7 @@ namespace ReducingComplexity.Steps
 		public void UpdateBoard()
 		{
 			printPieces();
-			if (_game.Winner != Piece.None || _game.NoEmptySquares)
+			if (_game.Winner != Piece.Empty || _game.NoEmptySquares)
 			{
 				Message = _game.Winner == Piece.Cat
 					? "Cat's game!"

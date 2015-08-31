@@ -91,7 +91,7 @@ namespace ReducingComplexity.Steps
 					if (isWinningLineForPlayer(line, Piece.Player1)) return Piece.Player1;
 					if (isWinningLineForPlayer(line, Piece.Player2)) return Piece.Player2;
 				}
-				return NoEmptySquares ? Piece.Cat : Piece.None;
+				return NoEmptySquares ? Piece.Cat : Piece.Empty;
 			}
 		}
 		public bool NoEmptySquares
@@ -101,7 +101,7 @@ namespace ReducingComplexity.Steps
 				bool foundEmptySquare = false;
 				foreach (Piece square in _squares)
 				{
-					if (square == Piece.None)
+					if (square == Piece.Empty)
 					{
 						foundEmptySquare = true;
 					}
@@ -109,15 +109,15 @@ namespace ReducingComplexity.Steps
 				return !foundEmptySquare;
 			}
 		}
-		public bool IsOver { get { return Winner != Piece.None || NoEmptySquares; } }
+		public bool IsOver { get { return Winner != Piece.Empty || NoEmptySquares; } }
 
 		public void Reset()
 		{
 			this._turn = Piece.Player1;
 			this._squares = new Piece[3, 3] {
-				{ Piece.None, Piece.None, Piece.None },
-				{ Piece.None, Piece.None, Piece.None },
-				{ Piece.None, Piece.None, Piece.None }
+				{ Piece.Empty, Piece.Empty, Piece.Empty },
+				{ Piece.Empty, Piece.Empty, Piece.Empty },
+				{ Piece.Empty, Piece.Empty, Piece.Empty }
 			};
 		}
 		public void TakeTurn(Point point)
@@ -134,7 +134,7 @@ namespace ReducingComplexity.Steps
 		private void validateMove(Point point)
 		{
 			if (IsOver) throw new Exception("The game is over! Press F3 to reset the game.");
-			if (_squares[point.y, point.x] != Piece.None) throw new Exception("That space is already taken. Try an empty space.");
+			if (_squares[point.y, point.x] != Piece.Empty) throw new Exception("That space is already taken. Try an empty space.");
 			if (!isPointOnBoard(point)) throw new Exception("Something went horribly wrong.");
 		}
 		private bool isWinningLineForPlayer(Point[] line, Piece player)

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "Misc\console\console.csproj", "{33BE6BB1-3528-422A-A8E4-D60E2EC23111}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trainings", "Trainings", "{4D4EC278-8A89-4826-80B9-6029A8C98D3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{081EB716-DDA9-4826-97CE-1D770A1BA576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResize", "ImageResize\ImageResize.csproj", "{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,12 @@ Global
 		{E91094EC-44F5-4DE4-88D7-ACF9B6981E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E91094EC-44F5-4DE4-88D7-ACF9B6981E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E91094EC-44F5-4DE4-88D7-ACF9B6981E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F}.All|Any CPU.Build.0 = Release|Any CPU
+		{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +81,6 @@ Global
 		{EB9F1010-0DCC-427C-A0CA-F5DE1115B9EB} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
 		{05A31F8B-57D4-4312-8DD8-4C6B045948F1} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
 		{E91094EC-44F5-4DE4-88D7-ACF9B6981E7E} = {4D4EC278-8A89-4826-80B9-6029A8C98D3E}
+		{F5B79922-4C39-4476-B3C5-7D51E3E2FA2F} = {081EB716-DDA9-4826-97CE-1D770A1BA576}
 	EndGlobalSection
 EndGlobal
