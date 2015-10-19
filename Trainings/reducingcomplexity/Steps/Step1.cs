@@ -73,14 +73,14 @@ namespace ReducingComplexity.Steps
 						try
 						{
 							takeTurn(_cursor);
-							if (Winner != Piece.Empty || NoEmptySquares) // #001, #003:																																																																																																															_gameOver (bool property)
+							if (Winner != Piece.Empty || NoEmptySquares)
 							{
 								printWinner();
 							}
 							else
 							{
 								takeTurn(ai.GetMove(Squares, Piece.Player2));
-								if (Winner != Piece.Empty || NoEmptySquares) // #001, #003:																																																																																																																					_gameOver (bool property)
+								if (Winner != Piece.Empty || NoEmptySquares)
 								{
 									printWinner();
 								}
@@ -105,7 +105,7 @@ namespace ReducingComplexity.Steps
 
 		private void takeTurn(Point point)
 		{
-			if (!(Winner != Piece.Empty || NoEmptySquares)) // #001, #003, #004, #005, #013:																																																																																																																	_gameOver (bool property), _validate()
+			if (!(Winner != Piece.Empty || NoEmptySquares))
 			{
 				if (point.y >= 0 && point.y <= 2 && point.x >= 0 && point.x <= 2)
 				{

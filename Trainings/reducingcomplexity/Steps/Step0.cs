@@ -37,7 +37,7 @@ namespace ReducingComplexity.Steps
 		public void Run(IComputerAI ai)
 		{
 			Console.CursorVisible = false;
-			{ // #001, #003:																																																																																																																										_resetGame()
+			{
 				this._turn = Piece.Player1;
 				this._squares = new Piece[3, 3] {
 					{ Piece.Empty, Piece.Empty, Piece.Empty },
@@ -45,13 +45,13 @@ namespace ReducingComplexity.Steps
 					{ Piece.Empty, Piece.Empty, Piece.Empty }
 				};
 
-				{ // #003:																																																																																																																										 _printBoard()
+				{
 					Console.Clear();
 					Console.SetCursorPosition(0, 0);
 					Console.WriteLine(this._gameScreen);
 				}
 
-				for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
+				for (int y = 0; y < 3; y++)
 				{
 					for (int x = 0; x < 3; x++)
 					{
@@ -64,7 +64,7 @@ namespace ReducingComplexity.Steps
 
 				printCursor();
 
-				{ // #001, #002:																																																																																																																										 _printMessage()
+				{
 					Console.SetCursorPosition(7, 17);
 					string formattedMessage = "Ready.";
 					if (formattedMessage.Length > Console.WindowWidth - 7) formattedMessage = formattedMessage.Substring(0, Console.WindowWidth - 7);
@@ -81,7 +81,7 @@ namespace ReducingComplexity.Steps
 				switch (keyInfo.Key)
 				{
 					case ConsoleKey.UpArrow:
-						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+						{
 							clearCursor();
 							this._cursor.y--;
 							if (this._cursor.y < 0) this._cursor.y = 2;
@@ -89,7 +89,7 @@ namespace ReducingComplexity.Steps
 						}
 						break;
 					case ConsoleKey.DownArrow:
-						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+						{
 							clearCursor();
 							this._cursor.y++;
 							if (this._cursor.y > 2) this._cursor.y = 0;
@@ -97,7 +97,7 @@ namespace ReducingComplexity.Steps
 						}
 						break;
 					case ConsoleKey.LeftArrow:
-						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+						{
 							clearCursor();
 							this._cursor.x--;
 							if (this._cursor.x < 0) this._cursor.x = 2;
@@ -105,7 +105,7 @@ namespace ReducingComplexity.Steps
 						}
 						break;
 					case ConsoleKey.RightArrow:
-						{ // #014:																																																																																																																										 _moveCursor(0, -1)
+						{
 							clearCursor();
 							this._cursor.x++;
 							if (this._cursor.x > 2) this._cursor.x = 0;
@@ -115,9 +115,9 @@ namespace ReducingComplexity.Steps
 					case ConsoleKey.Enter:
 						try
 						{
-							{ // #001, #003:																																																																																																																										 _takeTurn()
+							{
 
-								bool noEmptySquares = true; // #001, #003:																																																																																																																									_noEmptySquares (bool proeprty)
+								bool noEmptySquares = true;
 								foreach (Piece square in _squares)
 								{
 									if (square == Piece.Empty)
@@ -126,7 +126,7 @@ namespace ReducingComplexity.Steps
 									}
 								}
 
-								Piece winner = Piece.Empty; // #001, #003:																																																																																																																									_winner (Piece property)
+								Piece winner = Piece.Empty;
 								for (var i = 0; i < 8; i++)
 								{
 									if (checkLine(i, Piece.Player1))
@@ -143,7 +143,7 @@ namespace ReducingComplexity.Steps
 									winner = noEmptySquares ? Piece.Cat : Piece.Empty;
 								}
 
-								if (!(winner != Piece.Empty || noEmptySquares)) // #001, #003, #004, #005, #013:																																																																																																																	_gameOver (bool property), _validate()
+								if (!(winner != Piece.Empty || noEmptySquares))
 								{
 									if (_cursor.y >= 0 && _cursor.y <= 2 && _cursor.x >= 0 && _cursor.x <= 2)
 									{
@@ -152,7 +152,7 @@ namespace ReducingComplexity.Steps
 											this._squares[_cursor.y, _cursor.x] = _turn;
 											_turn = _turn == Piece.Player1 ? Piece.Player2 : Piece.Player1;
 
-											for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
+											for (int y = 0; y < 3; y++)
 											{
 												for (int x = 0; x < 3; x++)
 												{
@@ -163,7 +163,7 @@ namespace ReducingComplexity.Steps
 												}
 											}
 
-											noEmptySquares = true;	// #001, #003:																																																																																																																										_noEmptySquares (bool proeprty)
+											noEmptySquares = true;
 											foreach (Piece square in _squares)
 											{
 												if (square == Piece.Empty)
@@ -172,7 +172,7 @@ namespace ReducingComplexity.Steps
 												}
 											}
 
-											winner = Piece.Empty; // #001, #003:																																																																																																																									_winner (Piece property)
+											winner = Piece.Empty;
 											for (var i = 0; i < 8; i++)
 											{
 												if (checkLine(i, Piece.Player1))
@@ -189,7 +189,7 @@ namespace ReducingComplexity.Steps
 												winner = noEmptySquares ? Piece.Cat : Piece.Empty;
 											}
 
-											if (winner != Piece.Empty || noEmptySquares) // #001, #003:																																																																																																															_gameOver (bool property)
+											if (winner != Piece.Empty || noEmptySquares)
 											{
 												string message = "";
 												if (winner == Piece.Cat)
@@ -201,7 +201,7 @@ namespace ReducingComplexity.Steps
 													message = winner.GetLabel() + " is the winner!";
 												}
 
-												{ // #001, #002:																																																																																																																										 _printMessage()
+												{
 													int WIDTH = Console.WindowWidth - 7;
 													Console.SetCursorPosition(7, 17);
 													string formattedMessage = message;
@@ -212,9 +212,9 @@ namespace ReducingComplexity.Steps
 											}
 											else
 											{
-												{ // #001, #003:																																																																																																																										 _takeTurn()
+												{
 
-													if (!(winner != Piece.Empty || noEmptySquares)) // #001, #003, #004, #005, #013:																																																																																																																			_gameOver (bool property), _validate(), 
+													if (!(winner != Piece.Empty || noEmptySquares))
 													{
 														Point aiMove = ai.GetMove(Squares, Piece.Player2);
 														if (aiMove.y >= 0 && aiMove.y <= 2 && aiMove.x >= 0 && aiMove.x <= 2)
@@ -224,7 +224,7 @@ namespace ReducingComplexity.Steps
 																this._squares[aiMove.y, aiMove.x] = _turn;
 																_turn = _turn == Piece.Player1 ? Piece.Player2 : Piece.Player1;
 
-																for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
+																for (int y = 0; y < 3; y++)
 																{
 																	for (int x = 0; x < 3; x++)
 																	{
@@ -235,7 +235,7 @@ namespace ReducingComplexity.Steps
 																	}
 																}
 
-																noEmptySquares = true; // #001, #003:																																																																																																																												_noEmptySquares (bool proeprty)
+																noEmptySquares = true;
 																foreach (Piece square in _squares)
 																{
 																	if (square == Piece.Empty)
@@ -244,7 +244,7 @@ namespace ReducingComplexity.Steps
 																	}
 																}
 
-																winner = Piece.Empty; // #001, #003:																																																																																																																									_winner (Piece property)
+																winner = Piece.Empty;
 																for (var i = 0; i < 8; i++)
 																{
 																	if (checkLine(i, Piece.Player1))
@@ -261,11 +261,11 @@ namespace ReducingComplexity.Steps
 																	winner = noEmptySquares ? Piece.Cat : Piece.Empty;
 																}
 
-																if (winner != Piece.Empty || noEmptySquares) // #001, #003:																																																																																																																					_gameOver (bool property)
+																if (winner != Piece.Empty || noEmptySquares)
 																{
 																	if (winner == Piece.Cat)
 																	{
-																		{ // #001, #002:																																																																																																																										 _printMessage()
+																		{
 																			int WIDTH = Console.WindowWidth - 7;
 																			Console.SetCursorPosition(7, 17);
 																			string formattedMessage = "Cat's game!";
@@ -276,7 +276,7 @@ namespace ReducingComplexity.Steps
 																	}
 																	else
 																	{
-																		{ // #001, #002:																																																																																																																										 _printMessage()
+																		{
 																			int WIDTH = Console.WindowWidth - 7;
 																			Console.SetCursorPosition(7, 17);
 																			string formattedMessage = winner.GetLabel() + " is the winner!";
@@ -322,7 +322,7 @@ namespace ReducingComplexity.Steps
 						}
 						catch (Exception e)
 						{
-							{ // #001, #002:																																																																																																																										_printMessage()
+							{
 								int WIDTH = Console.WindowWidth - 7;
 								Console.SetCursorPosition(7, 17);
 								string formattedMessage = e.Message;
@@ -333,7 +333,7 @@ namespace ReducingComplexity.Steps
 						}
 						break;
 					case ConsoleKey.F3:
-						{ // #001, #003:																																																																																																																										_resetGame()
+						{
 							this._turn = Piece.Player1;
 							this._squares = new Piece[3, 3] {
 								{ Piece.Empty, Piece.Empty, Piece.Empty },
@@ -343,12 +343,12 @@ namespace ReducingComplexity.Steps
 
 							Console.Clear();
 
-							{ // #003:																																																																																																																										 _printBoard()
+							{
 								Console.SetCursorPosition(0, 0);
 								Console.WriteLine(this._gameScreen);
 							}
 
-							for (int y = 0; y < 3; y++) // #001:																																																																																																																										 _printPieces()
+							for (int y = 0; y < 3; y++)
 							{
 								for (int x = 0; x < 3; x++)
 								{
@@ -361,7 +361,7 @@ namespace ReducingComplexity.Steps
 
 							printCursor();
 
-							{ // #001, #002:																																																																																																																										_printMessage()
+							{
 								int WIDTH = Console.WindowWidth - 7;
 								Console.SetCursorPosition(7, 17);
 								string formattedMessage = "Ready.";
